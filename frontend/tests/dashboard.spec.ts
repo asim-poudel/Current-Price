@@ -116,6 +116,17 @@ test("uses winter and mixed DST table headings", async ({ page, request }) => {
   await expect(page.locator(".inline-zone").nth(1)).toHaveText("CEST");
 });
 
+test("refreshes dashboard data automatically", async ({ page, request }) => {
+  await page.clock.install();
+  await page.goto("/");
+  await expect(page.getByRole("columnheader", { name: "Berlin time (CEST +02:00)" })).toBeVisible();
+
+  await request.post("http://127.0.0.1:4010/__test/mode/winter");
+  await page.clock.fastForward(5 * 60 * 1000);
+
+  await expect(page.getByRole("columnheader", { name: "Berlin time (CET +01:00)" })).toBeVisible();
+});
+
 test("shows a boxed database degradation state", async ({ page, request }) => {
   await request.post("http://127.0.0.1:4010/__test/mode/degraded");
   await page.goto("/");

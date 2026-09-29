@@ -6,7 +6,7 @@ from functools import lru_cache
 
 import numpy as np
 from google import genai
-from google.genai import types
+from google.genai import errors, types
 from pydantic import BaseModel, Field
 
 from .config import RAG_ASSET_DIR, required_env
@@ -34,6 +34,17 @@ STOPWORDS = {
     "what", "when", "where", "which", "with",
 }
 NUMBER_PATTERN = re.compile(r"(?<![A-Za-z])[-+]?\d+(?:\.\d+)?")
+FALLBACK_GENERATION_MODEL = "gemini-3.5-flash-lite"
+GEMINI_HTTP_OPTIONS = types.HttpOptions(
+    timeout=25_000,
+    retry_options=types.HttpRetryOptions(
+        attempts=2,
+        initial_delay=0.5,
+        max_delay=1.0,
+        jitter=0.2,
+        http_status_codes=[408, 429, 500, 502, 503, 504],
+    ),
+)
 
 
 class GroundedAnswer(BaseModel):
@@ -112,7 +123,10 @@ def _static_index() -> tuple[np.ndarray, list[dict], dict, str]:
 
 @lru_cache(maxsize=1)
 def _client() -> genai.Client:
-    return genai.Client(api_key=required_env("GEMINI_API_KEY"))
+    return genai.Client(
+        api_key=required_env("GEMINI_API_KEY"),
+        http_options=GEMINI_HTTP_OPTIONS,
+    )
 
 
 def _normalize(vector) -> np.ndarray:
@@ -180,15 +194,29 @@ def _generate(question: str, blocks: list[dict], data_status: str) -> dict:
         for block in blocks
     )
     prompt = f"{rules}\n\nAVAILABLE_SOURCE_IDS:\n{json.dumps(ids)}\n\nUSER_QUESTION:\n{question}\n\nEVIDENCE:\n{evidence}"
-    result = _client().models.generate_content(
-        model=config["generation_model"],
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            response_schema=GroundedAnswer,
-            temperature=0,
-        ),
+    generation_config = types.GenerateContentConfig(
+        response_mime_type="application/json",
+        response_schema=GroundedAnswer,
+        temperature=0,
     )
+    models = dict.fromkeys((config["generation_model"], FALLBACK_GENERATION_MODEL))
+    last_error: errors.APIError | None = None
+    for model in models:
+        try:
+            result = _client().models.generate_content(
+                model=model,
+                contents=prompt,
+                config=generation_config,
+            )
+            break
+        except errors.APIError as error:
+            code = error.code or 0
+            if code not in {404, 408, 429} and not 500 <= code < 600:
+                raise
+            last_error = error
+    else:
+        assert last_error is not None
+        raise last_error
     parsed = GroundedAnswer.model_validate_json(result.text)
     if not parsed.source_ids or set(parsed.source_ids) - set(ids):
         return _response("The requested information is unavailable in the supplied project evidence.", [], "insufficient_evidence", "static")

@@ -1,13 +1,15 @@
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
+from types import SimpleNamespace
 
 import numpy as np
 import pytest
+from google.genai import errors
 
 from forecast.features import build_feature_matrix, scale_features
 from forecast.inference import get_session, predict, verify_assets
-from forecast import jobs
+from forecast import jobs, rag
 from forecast.metrics import evaluate
 from forecast.rag import classify_question, deterministic_dynamic_answer
 from forecast.timeutils import UTC, local_fields
@@ -106,3 +108,43 @@ def test_rag_routes_and_deterministic_metrics():
     }
     answer = deterministic_dynamic_answer("What was yesterday's MAE?", payload)
     assert answer["route"] == "dynamic" and "2.500 EUR/MWh" in answer["answer"]
+
+
+def test_rag_uses_bounded_retries_and_generation_fallback(monkeypatch):
+    assert rag.GEMINI_HTTP_OPTIONS.timeout == 25_000
+    assert rag.GEMINI_HTTP_OPTIONS.retry_options.attempts == 2
+
+    calls = []
+
+    class Models:
+        def generate_content(self, *, model, **_):
+            calls.append(model)
+            if model == "primary-model":
+                raise errors.ServerError(
+                    503,
+                    {"error": {"code": 503, "message": "busy", "status": "UNAVAILABLE"}},
+                )
+            return SimpleNamespace(
+                text=json.dumps(
+                    {
+                        "answer": "The answer is supported by the project documentation.",
+                        "source_ids": ["source:one"],
+                        "data_status": "static",
+                    }
+                )
+            )
+
+    monkeypatch.setattr(rag, "_client", lambda: SimpleNamespace(models=Models()))
+    monkeypatch.setattr(
+        rag,
+        "_static_index",
+        lambda: (np.empty((0, 0)), [], {"generation_model": "primary-model"}, "rules"),
+    )
+    response = rag._generate(
+        "Explain the model architecture.",
+        [{"source_id": "source:one", "title": "Model", "text": "Project documentation."}],
+        "static",
+    )
+
+    assert calls == ["primary-model", rag.FALLBACK_GENERATION_MODEL]
+    assert response["source_ids"] == ["source:one"]

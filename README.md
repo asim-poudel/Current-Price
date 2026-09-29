@@ -58,7 +58,7 @@ FastAPI daily job -> validation -> 15 features -> scaler -> ONNX model
                   Next.js dashboard
 ```
 
-The Q&A route handles current metric questions with deterministic code. Static and mixed questions use the bundled retrieval index and Gemini. The static index never stores dynamic evaluation values.
+The Q&A route handles current metric questions with deterministic code. Static and mixed questions use the bundled retrieval index and Gemini, with bounded transient retries and a stable fallback generation model using the same API key. The static index never stores dynamic evaluation values. While open, the dashboard refreshes its uncached server data every five minutes.
 
 ## Project structure
 
