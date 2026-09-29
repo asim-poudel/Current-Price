@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "generation_model": "gemini-3.8-flash",
+  "embedding_model": "gemini-embedding-2",
+  "embedding_dimension": 768,
+  "top_k": 4,
+  "minimum_retrieval_score": 0.3,
+  "static_sources": [
+    "cnn_lstm_config",
+    "static_model_evaluation"
+  ],
+  "dynamic_data_is_embedded": false,
+  "historical_examples_allowed_in_live_answers": false,
+  "metric_calculation_by_llm": false,
+  "supported_dynamic_schema": "1.0"
+}

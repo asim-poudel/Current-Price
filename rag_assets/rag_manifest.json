@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "model_version": "cnn_lstm_v1_frozen",
+  "contains_live_data": false,
+  "assets": {
+    "static_embeddings.npy": {
+      "sha256": "9917a58c381627b112e7596a4f0401866244721bb84b8bae3b2e7615b50d54f4",
+      "size_bytes": 43136
+    },
+    "static_chunks.json": {
+      "sha256": "255dab543dc2cd1617f61fae3b43d31811c143818fec1667d24eb856402e5a70",
+      "size_bytes": 11861
+    },
+    "static_index_metadata.json": {
+      "sha256": "9fe16ababf1fe242eae12547d2bad5181d65e2c751fd7bb455a3139d67167d6e",
+      "size_bytes": 249
+    },
+    "rag_config.json": {
+      "sha256": "b0aafca30e6b53831cc1ea1db4d90e362879c837f492c76ec36bc65f77b5323a",
+      "size_bytes": 440
+    },
+    "rag_system_rules.txt": {
+      "sha256": "8563f36cbb56570c1580e47347d82765709c4500b56fb17545d5b5254a882d74",
+      "size_bytes": 895
+    }
+  }
+}

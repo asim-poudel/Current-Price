@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Environment files and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node and Next.js
+node_modules/
+.next/
+.next-*/
+out/
+.turbo/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+
+# Vercel
+.vercel/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+
+# Local analysis output
+graphify-out/
+
+# Project reference material
+ref files/

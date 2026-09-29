@@ -1,0 +1,4879 @@
+{
+  "origin_utc": "2024-08-31T12:00:00Z",
+  "observations": [
+    {
+      "timestamp_utc": "2024-08-17T12:00:00Z",
+      "price_eur_mwh": 39.43,
+      "load_actual_mwh": 46697.5,
+      "load_forecast_mwh": 48781.5
+    },
+    {
+      "timestamp_utc": "2024-08-17T13:00:00Z",
+      "price_eur_mwh": 39.56,
+      "load_actual_mwh": 45979.75,
+      "load_forecast_mwh": 48163.25
+    },
+    {
+      "timestamp_utc": "2024-08-17T14:00:00Z",
+      "price_eur_mwh": 59.09,
+      "load_actual_mwh": 46314.0,
+      "load_forecast_mwh": 47821.5
+    },
+    {
+      "timestamp_utc": "2024-08-17T15:00:00Z",
+      "price_eur_mwh": 88.4,
+      "load_actual_mwh": 47273.25,
+      "load_forecast_mwh": 48017.25
+    },
+    {
+      "timestamp_utc": "2024-08-17T16:00:00Z",
+      "price_eur_mwh": 119.68,
+      "load_actual_mwh": 47909.5,
+      "load_forecast_mwh": 48447.75
+    },
+    {
+      "timestamp_utc": "2024-08-17T17:00:00Z",
+      "price_eur_mwh": 140.56,
+      "load_actual_mwh": 47419.75,
+      "load_forecast_mwh": 47714.0
+    },
+    {
+      "timestamp_utc": "2024-08-17T18:00:00Z",
+      "price_eur_mwh": 149.18,
+      "load_actual_mwh": 46302.5,
+      "load_forecast_mwh": 46207.75
+    },
+    {
+      "timestamp_utc": "2024-08-17T19:00:00Z",
+      "price_eur_mwh": 126.98,
+      "load_actual_mwh": 45507.75,
+      "load_forecast_mwh": 44581.0
+    },
+    {
+      "timestamp_utc": "2024-08-17T20:00:00Z",
+      "price_eur_mwh": 116.7,
+      "load_actual_mwh": 43453.5,
+      "load_forecast_mwh": 42810.75
+    },
+    {
+      "timestamp_utc": "2024-08-17T21:00:00Z",
+      "price_eur_mwh": 105.82,
+      "load_actual_mwh": 40837.0,
+      "load_forecast_mwh": 40284.5
+    },
+    {
+      "timestamp_utc": "2024-08-17T22:00:00Z",
+      "price_eur_mwh": 111.82,
+      "load_actual_mwh": 39168.75,
+      "load_forecast_mwh": 38044.5
+    },
+    {
+      "timestamp_utc": "2024-08-17T23:00:00Z",
+      "price_eur_mwh": 112.8,
+      "load_actual_mwh": 37492.75,
+      "load_forecast_mwh": 36479.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T00:00:00Z",
+      "price_eur_mwh": 106.17,
+      "load_actual_mwh": 36313.5,
+      "load_forecast_mwh": 35486.5
+    },
+    {
+      "timestamp_utc": "2024-08-18T01:00:00Z",
+      "price_eur_mwh": 106.22,
+      "load_actual_mwh": 35614.0,
+      "load_forecast_mwh": 35165.5
+    },
+    {
+      "timestamp_utc": "2024-08-18T02:00:00Z",
+      "price_eur_mwh": 104.75,
+      "load_actual_mwh": 35315.75,
+      "load_forecast_mwh": 35200.5
+    },
+    {
+      "timestamp_utc": "2024-08-18T03:00:00Z",
+      "price_eur_mwh": 104.97,
+      "load_actual_mwh": 35873.5,
+      "load_forecast_mwh": 35349.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T04:00:00Z",
+      "price_eur_mwh": 99.53,
+      "load_actual_mwh": 36202.5,
+      "load_forecast_mwh": 35671.5
+    },
+    {
+      "timestamp_utc": "2024-08-18T05:00:00Z",
+      "price_eur_mwh": 95.2,
+      "load_actual_mwh": 37509.25,
+      "load_forecast_mwh": 37511.25
+    },
+    {
+      "timestamp_utc": "2024-08-18T06:00:00Z",
+      "price_eur_mwh": 88.2,
+      "load_actual_mwh": 40216.25,
+      "load_forecast_mwh": 40662.75
+    },
+    {
+      "timestamp_utc": "2024-08-18T07:00:00Z",
+      "price_eur_mwh": 82.32,
+      "load_actual_mwh": 42667.5,
+      "load_forecast_mwh": 43948.75
+    },
+    {
+      "timestamp_utc": "2024-08-18T08:00:00Z",
+      "price_eur_mwh": 72.12,
+      "load_actual_mwh": 44996.0,
+      "load_forecast_mwh": 45929.5
+    },
+    {
+      "timestamp_utc": "2024-08-18T09:00:00Z",
+      "price_eur_mwh": 72.52,
+      "load_actual_mwh": 47302.75,
+      "load_forecast_mwh": 47296.75
+    },
+    {
+      "timestamp_utc": "2024-08-18T10:00:00Z",
+      "price_eur_mwh": 66.03,
+      "load_actual_mwh": 47426.5,
+      "load_forecast_mwh": 47101.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T11:00:00Z",
+      "price_eur_mwh": 33.64,
+      "load_actual_mwh": 46166.75,
+      "load_forecast_mwh": 45778.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T12:00:00Z",
+      "price_eur_mwh": 17.72,
+      "load_actual_mwh": 44909.75,
+      "load_forecast_mwh": 44701.75
+    },
+    {
+      "timestamp_utc": "2024-08-18T13:00:00Z",
+      "price_eur_mwh": 51.28,
+      "load_actual_mwh": 44328.75,
+      "load_forecast_mwh": 44074.25
+    },
+    {
+      "timestamp_utc": "2024-08-18T14:00:00Z",
+      "price_eur_mwh": 69.86,
+      "load_actual_mwh": 44258.5,
+      "load_forecast_mwh": 43805.75
+    },
+    {
+      "timestamp_utc": "2024-08-18T15:00:00Z",
+      "price_eur_mwh": 82.39,
+      "load_actual_mwh": 45409.0,
+      "load_forecast_mwh": 44809.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T16:00:00Z",
+      "price_eur_mwh": 93.85,
+      "load_actual_mwh": 46283.0,
+      "load_forecast_mwh": 46373.25
+    },
+    {
+      "timestamp_utc": "2024-08-18T17:00:00Z",
+      "price_eur_mwh": 109.93,
+      "load_actual_mwh": 46307.25,
+      "load_forecast_mwh": 46125.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T18:00:00Z",
+      "price_eur_mwh": 115.68,
+      "load_actual_mwh": 45909.5,
+      "load_forecast_mwh": 45434.75
+    },
+    {
+      "timestamp_utc": "2024-08-18T19:00:00Z",
+      "price_eur_mwh": 109.83,
+      "load_actual_mwh": 45409.0,
+      "load_forecast_mwh": 44510.75
+    },
+    {
+      "timestamp_utc": "2024-08-18T20:00:00Z",
+      "price_eur_mwh": 111.4,
+      "load_actual_mwh": 43868.5,
+      "load_forecast_mwh": 43285.25
+    },
+    {
+      "timestamp_utc": "2024-08-18T21:00:00Z",
+      "price_eur_mwh": 99.45,
+      "load_actual_mwh": 41458.75,
+      "load_forecast_mwh": 40681.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T22:00:00Z",
+      "price_eur_mwh": 97.39,
+      "load_actual_mwh": 39237.75,
+      "load_forecast_mwh": 38805.0
+    },
+    {
+      "timestamp_utc": "2024-08-18T23:00:00Z",
+      "price_eur_mwh": 90.1,
+      "load_actual_mwh": 38450.0,
+      "load_forecast_mwh": 37534.0
+    },
+    {
+      "timestamp_utc": "2024-08-19T00:00:00Z",
+      "price_eur_mwh": 88.7,
+      "load_actual_mwh": 38073.25,
+      "load_forecast_mwh": 36796.5
+    },
+    {
+      "timestamp_utc": "2024-08-19T01:00:00Z",
+      "price_eur_mwh": 84.86,
+      "load_actual_mwh": 38207.25,
+      "load_forecast_mwh": 37331.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T02:00:00Z",
+      "price_eur_mwh": 84.5,
+      "load_actual_mwh": 39495.75,
+      "load_forecast_mwh": 39186.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T03:00:00Z",
+      "price_eur_mwh": 87.97,
+      "load_actual_mwh": 42675.25,
+      "load_forecast_mwh": 42745.0
+    },
+    {
+      "timestamp_utc": "2024-08-19T04:00:00Z",
+      "price_eur_mwh": 129.0,
+      "load_actual_mwh": 49036.0,
+      "load_forecast_mwh": 49501.0
+    },
+    {
+      "timestamp_utc": "2024-08-19T05:00:00Z",
+      "price_eur_mwh": 152.33,
+      "load_actual_mwh": 53730.0,
+      "load_forecast_mwh": 54099.5
+    },
+    {
+      "timestamp_utc": "2024-08-19T06:00:00Z",
+      "price_eur_mwh": 129.6,
+      "load_actual_mwh": 57200.25,
+      "load_forecast_mwh": 57090.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T07:00:00Z",
+      "price_eur_mwh": 112.58,
+      "load_actual_mwh": 58426.75,
+      "load_forecast_mwh": 58405.5
+    },
+    {
+      "timestamp_utc": "2024-08-19T08:00:00Z",
+      "price_eur_mwh": 96.9,
+      "load_actual_mwh": 58745.75,
+      "load_forecast_mwh": 59528.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T09:00:00Z",
+      "price_eur_mwh": 89.74,
+      "load_actual_mwh": 59455.25,
+      "load_forecast_mwh": 60160.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T10:00:00Z",
+      "price_eur_mwh": 84.38,
+      "load_actual_mwh": 57872.5,
+      "load_forecast_mwh": 60421.5
+    },
+    {
+      "timestamp_utc": "2024-08-19T11:00:00Z",
+      "price_eur_mwh": 78.87,
+      "load_actual_mwh": 57031.5,
+      "load_forecast_mwh": 59660.0
+    },
+    {
+      "timestamp_utc": "2024-08-19T12:00:00Z",
+      "price_eur_mwh": 80.21,
+      "load_actual_mwh": 54149.5,
+      "load_forecast_mwh": 58489.25
+    },
+    {
+      "timestamp_utc": "2024-08-19T13:00:00Z",
+      "price_eur_mwh": 79.9,
+      "load_actual_mwh": 52453.75,
+      "load_forecast_mwh": 57555.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T14:00:00Z",
+      "price_eur_mwh": 84.05,
+      "load_actual_mwh": 54336.0,
+      "load_forecast_mwh": 55975.5
+    },
+    {
+      "timestamp_utc": "2024-08-19T15:00:00Z",
+      "price_eur_mwh": 100.7,
+      "load_actual_mwh": 54712.75,
+      "load_forecast_mwh": 55992.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T16:00:00Z",
+      "price_eur_mwh": 113.97,
+      "load_actual_mwh": 55860.25,
+      "load_forecast_mwh": 56230.5
+    },
+    {
+      "timestamp_utc": "2024-08-19T17:00:00Z",
+      "price_eur_mwh": 200.0,
+      "load_actual_mwh": 55448.75,
+      "load_forecast_mwh": 55421.0
+    },
+    {
+      "timestamp_utc": "2024-08-19T18:00:00Z",
+      "price_eur_mwh": 203.83,
+      "load_actual_mwh": 53882.0,
+      "load_forecast_mwh": 53949.25
+    },
+    {
+      "timestamp_utc": "2024-08-19T19:00:00Z",
+      "price_eur_mwh": 140.11,
+      "load_actual_mwh": 52095.5,
+      "load_forecast_mwh": 51819.75
+    },
+    {
+      "timestamp_utc": "2024-08-19T20:00:00Z",
+      "price_eur_mwh": 100.82,
+      "load_actual_mwh": 48330.5,
+      "load_forecast_mwh": 48276.0
+    },
+    {
+      "timestamp_utc": "2024-08-19T21:00:00Z",
+      "price_eur_mwh": 86.2,
+      "load_actual_mwh": 44907.5,
+      "load_forecast_mwh": 44842.0
+    },
+    {
+      "timestamp_utc": "2024-08-19T22:00:00Z",
+      "price_eur_mwh": 93.6,
+      "load_actual_mwh": 41837.0,
+      "load_forecast_mwh": 42290.25
+    },
+    {
+      "timestamp_utc": "2024-08-19T23:00:00Z",
+      "price_eur_mwh": 89.55,
+      "load_actual_mwh": 40904.25,
+      "load_forecast_mwh": 40674.75
+    },
+    {
+      "timestamp_utc": "2024-08-20T00:00:00Z",
+      "price_eur_mwh": 88.5,
+      "load_actual_mwh": 40279.5,
+      "load_forecast_mwh": 40201.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T01:00:00Z",
+      "price_eur_mwh": 89.31,
+      "load_actual_mwh": 40159.5,
+      "load_forecast_mwh": 40252.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T02:00:00Z",
+      "price_eur_mwh": 86.19,
+      "load_actual_mwh": 41022.25,
+      "load_forecast_mwh": 41556.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T03:00:00Z",
+      "price_eur_mwh": 89.97,
+      "load_actual_mwh": 44345.0,
+      "load_forecast_mwh": 44521.25
+    },
+    {
+      "timestamp_utc": "2024-08-20T04:00:00Z",
+      "price_eur_mwh": 123.06,
+      "load_actual_mwh": 50537.5,
+      "load_forecast_mwh": 50335.5
+    },
+    {
+      "timestamp_utc": "2024-08-20T05:00:00Z",
+      "price_eur_mwh": 133.23,
+      "load_actual_mwh": 54940.0,
+      "load_forecast_mwh": 54487.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T06:00:00Z",
+      "price_eur_mwh": 122.97,
+      "load_actual_mwh": 57658.25,
+      "load_forecast_mwh": 57517.25
+    },
+    {
+      "timestamp_utc": "2024-08-20T07:00:00Z",
+      "price_eur_mwh": 103.09,
+      "load_actual_mwh": 58752.75,
+      "load_forecast_mwh": 59249.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T08:00:00Z",
+      "price_eur_mwh": 75.01,
+      "load_actual_mwh": 59701.0,
+      "load_forecast_mwh": 60231.75
+    },
+    {
+      "timestamp_utc": "2024-08-20T09:00:00Z",
+      "price_eur_mwh": 50.13,
+      "load_actual_mwh": 60118.25,
+      "load_forecast_mwh": 60083.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T10:00:00Z",
+      "price_eur_mwh": 37.69,
+      "load_actual_mwh": 60138.5,
+      "load_forecast_mwh": 62074.5
+    },
+    {
+      "timestamp_utc": "2024-08-20T11:00:00Z",
+      "price_eur_mwh": 18.22,
+      "load_actual_mwh": 59361.75,
+      "load_forecast_mwh": 61593.25
+    },
+    {
+      "timestamp_utc": "2024-08-20T12:00:00Z",
+      "price_eur_mwh": 20.36,
+      "load_actual_mwh": 57915.25,
+      "load_forecast_mwh": 60415.5
+    },
+    {
+      "timestamp_utc": "2024-08-20T13:00:00Z",
+      "price_eur_mwh": 48.9,
+      "load_actual_mwh": 57369.75,
+      "load_forecast_mwh": 59488.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T14:00:00Z",
+      "price_eur_mwh": 82.15,
+      "load_actual_mwh": 56707.5,
+      "load_forecast_mwh": 58240.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T15:00:00Z",
+      "price_eur_mwh": 104.5,
+      "load_actual_mwh": 57477.0,
+      "load_forecast_mwh": 57886.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T16:00:00Z",
+      "price_eur_mwh": 118.07,
+      "load_actual_mwh": 58627.0,
+      "load_forecast_mwh": 57020.25
+    },
+    {
+      "timestamp_utc": "2024-08-20T17:00:00Z",
+      "price_eur_mwh": 158.81,
+      "load_actual_mwh": 58241.5,
+      "load_forecast_mwh": 55762.75
+    },
+    {
+      "timestamp_utc": "2024-08-20T18:00:00Z",
+      "price_eur_mwh": 154.71,
+      "load_actual_mwh": 57066.75,
+      "load_forecast_mwh": 53992.25
+    },
+    {
+      "timestamp_utc": "2024-08-20T19:00:00Z",
+      "price_eur_mwh": 120.89,
+      "load_actual_mwh": 54297.5,
+      "load_forecast_mwh": 51942.5
+    },
+    {
+      "timestamp_utc": "2024-08-20T20:00:00Z",
+      "price_eur_mwh": 103.82,
+      "load_actual_mwh": 50375.75,
+      "load_forecast_mwh": 48710.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T21:00:00Z",
+      "price_eur_mwh": 97.96,
+      "load_actual_mwh": 46489.75,
+      "load_forecast_mwh": 45219.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T22:00:00Z",
+      "price_eur_mwh": 87.36,
+      "load_actual_mwh": 44327.5,
+      "load_forecast_mwh": 42893.0
+    },
+    {
+      "timestamp_utc": "2024-08-20T23:00:00Z",
+      "price_eur_mwh": 82.0,
+      "load_actual_mwh": 43052.5,
+      "load_forecast_mwh": 41492.0
+    },
+    {
+      "timestamp_utc": "2024-08-21T00:00:00Z",
+      "price_eur_mwh": 65.93,
+      "load_actual_mwh": 41886.25,
+      "load_forecast_mwh": 41010.5
+    },
+    {
+      "timestamp_utc": "2024-08-21T01:00:00Z",
+      "price_eur_mwh": 56.09,
+      "load_actual_mwh": 42327.0,
+      "load_forecast_mwh": 41294.0
+    },
+    {
+      "timestamp_utc": "2024-08-21T02:00:00Z",
+      "price_eur_mwh": 60.42,
+      "load_actual_mwh": 43043.5,
+      "load_forecast_mwh": 42722.75
+    },
+    {
+      "timestamp_utc": "2024-08-21T03:00:00Z",
+      "price_eur_mwh": 59.95,
+      "load_actual_mwh": 45947.5,
+      "load_forecast_mwh": 45348.75
+    },
+    {
+      "timestamp_utc": "2024-08-21T04:00:00Z",
+      "price_eur_mwh": 81.3,
+      "load_actual_mwh": 52213.25,
+      "load_forecast_mwh": 51065.5
+    },
+    {
+      "timestamp_utc": "2024-08-21T05:00:00Z",
+      "price_eur_mwh": 85.92,
+      "load_actual_mwh": 56795.25,
+      "load_forecast_mwh": 55565.5
+    },
+    {
+      "timestamp_utc": "2024-08-21T06:00:00Z",
+      "price_eur_mwh": 87.38,
+      "load_actual_mwh": 59712.75,
+      "load_forecast_mwh": 58300.25
+    },
+    {
+      "timestamp_utc": "2024-08-21T07:00:00Z",
+      "price_eur_mwh": 53.16,
+      "load_actual_mwh": 60572.75,
+      "load_forecast_mwh": 59854.75
+    },
+    {
+      "timestamp_utc": "2024-08-21T08:00:00Z",
+      "price_eur_mwh": 0.16,
+      "load_actual_mwh": 62252.5,
+      "load_forecast_mwh": 60630.5
+    },
+    {
+      "timestamp_utc": "2024-08-21T09:00:00Z",
+      "price_eur_mwh": -4.95,
+      "load_actual_mwh": 61692.0,
+      "load_forecast_mwh": 60217.75
+    },
+    {
+      "timestamp_utc": "2024-08-21T10:00:00Z",
+      "price_eur_mwh": -13.01,
+      "load_actual_mwh": 60429.75,
+      "load_forecast_mwh": 62025.25
+    },
+    {
+      "timestamp_utc": "2024-08-21T11:00:00Z",
+      "price_eur_mwh": -20.32,
+      "load_actual_mwh": 59881.0,
+      "load_forecast_mwh": 61495.25
+    },
+    {
+      "timestamp_utc": "2024-08-21T12:00:00Z",
+      "price_eur_mwh": -21.28,
+      "load_actual_mwh": 57773.75,
+      "load_forecast_mwh": 59887.25
+    },
+    {
+      "timestamp_utc": "2024-08-21T13:00:00Z",
+      "price_eur_mwh": -16.05,
+      "load_actual_mwh": 56456.0,
+      "load_forecast_mwh": 58921.25
+    },
+    {
+      "timestamp_utc": "2024-08-21T14:00:00Z",
+      "price_eur_mwh": -12.64,
+      "load_actual_mwh": 55865.75,
+      "load_forecast_mwh": 57584.0
+    },
+    {
+      "timestamp_utc": "2024-08-21T15:00:00Z",
+      "price_eur_mwh": 2.01,
+      "load_actual_mwh": 58395.75,
+      "load_forecast_mwh": 57354.25
+    },
+    {
+      "timestamp_utc": "2024-08-21T16:00:00Z",
+      "price_eur_mwh": 67.26,
+      "load_actual_mwh": 58833.0,
+      "load_forecast_mwh": 57442.5
+    },
+    {
+      "timestamp_utc": "2024-08-21T17:00:00Z",
+      "price_eur_mwh": 101.89,
+      "load_actual_mwh": 57791.5,
+      "load_forecast_mwh": 56612.25
+    },
+    {
+      "timestamp_utc": "2024-08-21T18:00:00Z",
+      "price_eur_mwh": 140.35,
+      "load_actual_mwh": 56343.5,
+      "load_forecast_mwh": 54440.75
+    },
+    {
+      "timestamp_utc": "2024-08-21T19:00:00Z",
+      "price_eur_mwh": 130.96,
+      "load_actual_mwh": 54256.25,
+      "load_forecast_mwh": 52275.75
+    },
+    {
+      "timestamp_utc": "2024-08-21T20:00:00Z",
+      "price_eur_mwh": 103.42,
+      "load_actual_mwh": 50587.5,
+      "load_forecast_mwh": 48563.0
+    },
+    {
+      "timestamp_utc": "2024-08-21T21:00:00Z",
+      "price_eur_mwh": 85.65,
+      "load_actual_mwh": 47271.0,
+      "load_forecast_mwh": 44868.5
+    },
+    {
+      "timestamp_utc": "2024-08-21T22:00:00Z",
+      "price_eur_mwh": 78.94,
+      "load_actual_mwh": 43861.5,
+      "load_forecast_mwh": 41850.5
+    },
+    {
+      "timestamp_utc": "2024-08-21T23:00:00Z",
+      "price_eur_mwh": 73.04,
+      "load_actual_mwh": 41812.0,
+      "load_forecast_mwh": 40579.5
+    },
+    {
+      "timestamp_utc": "2024-08-22T00:00:00Z",
+      "price_eur_mwh": 80.46,
+      "load_actual_mwh": 40726.0,
+      "load_forecast_mwh": 39614.5
+    },
+    {
+      "timestamp_utc": "2024-08-22T01:00:00Z",
+      "price_eur_mwh": 80.17,
+      "load_actual_mwh": 40715.5,
+      "load_forecast_mwh": 40097.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T02:00:00Z",
+      "price_eur_mwh": 70.23,
+      "load_actual_mwh": 41639.5,
+      "load_forecast_mwh": 41112.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T03:00:00Z",
+      "price_eur_mwh": 85.42,
+      "load_actual_mwh": 44613.75,
+      "load_forecast_mwh": 44315.25
+    },
+    {
+      "timestamp_utc": "2024-08-22T04:00:00Z",
+      "price_eur_mwh": 99.95,
+      "load_actual_mwh": 50559.0,
+      "load_forecast_mwh": 50857.25
+    },
+    {
+      "timestamp_utc": "2024-08-22T05:00:00Z",
+      "price_eur_mwh": 129.46,
+      "load_actual_mwh": 55298.25,
+      "load_forecast_mwh": 55185.0
+    },
+    {
+      "timestamp_utc": "2024-08-22T06:00:00Z",
+      "price_eur_mwh": 113.05,
+      "load_actual_mwh": 58187.75,
+      "load_forecast_mwh": 57912.5
+    },
+    {
+      "timestamp_utc": "2024-08-22T07:00:00Z",
+      "price_eur_mwh": 73.1,
+      "load_actual_mwh": 58876.75,
+      "load_forecast_mwh": 58917.0
+    },
+    {
+      "timestamp_utc": "2024-08-22T08:00:00Z",
+      "price_eur_mwh": 14.8,
+      "load_actual_mwh": 59221.0,
+      "load_forecast_mwh": 59380.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T09:00:00Z",
+      "price_eur_mwh": 0.0,
+      "load_actual_mwh": 59118.25,
+      "load_forecast_mwh": 60234.5
+    },
+    {
+      "timestamp_utc": "2024-08-22T10:00:00Z",
+      "price_eur_mwh": -0.38,
+      "load_actual_mwh": 58367.0,
+      "load_forecast_mwh": 59931.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T11:00:00Z",
+      "price_eur_mwh": -2.56,
+      "load_actual_mwh": 57721.25,
+      "load_forecast_mwh": 58809.5
+    },
+    {
+      "timestamp_utc": "2024-08-22T12:00:00Z",
+      "price_eur_mwh": -1.51,
+      "load_actual_mwh": 56205.75,
+      "load_forecast_mwh": 57386.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T13:00:00Z",
+      "price_eur_mwh": -4.35,
+      "load_actual_mwh": 55910.5,
+      "load_forecast_mwh": 56354.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T14:00:00Z",
+      "price_eur_mwh": -0.09,
+      "load_actual_mwh": 56241.0,
+      "load_forecast_mwh": 55436.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T15:00:00Z",
+      "price_eur_mwh": 24.89,
+      "load_actual_mwh": 57463.25,
+      "load_forecast_mwh": 55350.25
+    },
+    {
+      "timestamp_utc": "2024-08-22T16:00:00Z",
+      "price_eur_mwh": 89.46,
+      "load_actual_mwh": 57375.5,
+      "load_forecast_mwh": 55104.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T17:00:00Z",
+      "price_eur_mwh": 112.74,
+      "load_actual_mwh": 57719.5,
+      "load_forecast_mwh": 54084.75
+    },
+    {
+      "timestamp_utc": "2024-08-22T18:00:00Z",
+      "price_eur_mwh": 111.5,
+      "load_actual_mwh": 56158.25,
+      "load_forecast_mwh": 52786.0
+    },
+    {
+      "timestamp_utc": "2024-08-22T19:00:00Z",
+      "price_eur_mwh": 109.99,
+      "load_actual_mwh": 53765.5,
+      "load_forecast_mwh": 51112.0
+    },
+    {
+      "timestamp_utc": "2024-08-22T20:00:00Z",
+      "price_eur_mwh": 95.48,
+      "load_actual_mwh": 50222.5,
+      "load_forecast_mwh": 48074.25
+    },
+    {
+      "timestamp_utc": "2024-08-22T21:00:00Z",
+      "price_eur_mwh": 79.22,
+      "load_actual_mwh": 47069.5,
+      "load_forecast_mwh": 44909.0
+    },
+    {
+      "timestamp_utc": "2024-08-22T22:00:00Z",
+      "price_eur_mwh": 51.9,
+      "load_actual_mwh": 44252.75,
+      "load_forecast_mwh": 43583.0
+    },
+    {
+      "timestamp_utc": "2024-08-22T23:00:00Z",
+      "price_eur_mwh": 45.87,
+      "load_actual_mwh": 43074.5,
+      "load_forecast_mwh": 41874.0
+    },
+    {
+      "timestamp_utc": "2024-08-23T00:00:00Z",
+      "price_eur_mwh": 38.51,
+      "load_actual_mwh": 42479.0,
+      "load_forecast_mwh": 41009.75
+    },
+    {
+      "timestamp_utc": "2024-08-23T01:00:00Z",
+      "price_eur_mwh": 26.36,
+      "load_actual_mwh": 42377.75,
+      "load_forecast_mwh": 41491.0
+    },
+    {
+      "timestamp_utc": "2024-08-23T02:00:00Z",
+      "price_eur_mwh": 26.48,
+      "load_actual_mwh": 43650.25,
+      "load_forecast_mwh": 43043.25
+    },
+    {
+      "timestamp_utc": "2024-08-23T03:00:00Z",
+      "price_eur_mwh": 30.59,
+      "load_actual_mwh": 46559.5,
+      "load_forecast_mwh": 46224.0
+    },
+    {
+      "timestamp_utc": "2024-08-23T04:00:00Z",
+      "price_eur_mwh": 64.22,
+      "load_actual_mwh": 52306.0,
+      "load_forecast_mwh": 52068.5
+    },
+    {
+      "timestamp_utc": "2024-08-23T05:00:00Z",
+      "price_eur_mwh": 60.63,
+      "load_actual_mwh": 57719.75,
+      "load_forecast_mwh": 56660.25
+    },
+    {
+      "timestamp_utc": "2024-08-23T06:00:00Z",
+      "price_eur_mwh": 43.64,
+      "load_actual_mwh": 60514.25,
+      "load_forecast_mwh": 59591.75
+    },
+    {
+      "timestamp_utc": "2024-08-23T07:00:00Z",
+      "price_eur_mwh": 4.06,
+      "load_actual_mwh": 60457.25,
+      "load_forecast_mwh": 60457.0
+    },
+    {
+      "timestamp_utc": "2024-08-23T08:00:00Z",
+      "price_eur_mwh": -0.01,
+      "load_actual_mwh": 60960.75,
+      "load_forecast_mwh": 61106.25
+    },
+    {
+      "timestamp_utc": "2024-08-23T09:00:00Z",
+      "price_eur_mwh": -3.97,
+      "load_actual_mwh": 60791.5,
+      "load_forecast_mwh": 61551.25
+    },
+    {
+      "timestamp_utc": "2024-08-23T10:00:00Z",
+      "price_eur_mwh": -9.54,
+      "load_actual_mwh": 61023.0,
+      "load_forecast_mwh": 61369.5
+    },
+    {
+      "timestamp_utc": "2024-08-23T11:00:00Z",
+      "price_eur_mwh": -15.32,
+      "load_actual_mwh": 59680.0,
+      "load_forecast_mwh": 60022.5
+    },
+    {
+      "timestamp_utc": "2024-08-23T12:00:00Z",
+      "price_eur_mwh": -16.55,
+      "load_actual_mwh": 58728.5,
+      "load_forecast_mwh": 58124.0
+    },
+    {
+      "timestamp_utc": "2024-08-23T13:00:00Z",
+      "price_eur_mwh": -10.15,
+      "load_actual_mwh": 57273.25,
+      "load_forecast_mwh": 57734.75
+    },
+    {
+      "timestamp_utc": "2024-08-23T14:00:00Z",
+      "price_eur_mwh": -9.18,
+      "load_actual_mwh": 56903.0,
+      "load_forecast_mwh": 56926.0
+    },
+    {
+      "timestamp_utc": "2024-08-23T15:00:00Z",
+      "price_eur_mwh": -0.03,
+      "load_actual_mwh": 58059.25,
+      "load_forecast_mwh": 56704.25
+    },
+    {
+      "timestamp_utc": "2024-08-23T16:00:00Z",
+      "price_eur_mwh": 50.2,
+      "load_actual_mwh": 57934.25,
+      "load_forecast_mwh": 56483.75
+    },
+    {
+      "timestamp_utc": "2024-08-23T17:00:00Z",
+      "price_eur_mwh": 99.53,
+      "load_actual_mwh": 56434.75,
+      "load_forecast_mwh": 55136.5
+    },
+    {
+      "timestamp_utc": "2024-08-23T18:00:00Z",
+      "price_eur_mwh": 118.57,
+      "load_actual_mwh": 55002.75,
+      "load_forecast_mwh": 53098.5
+    },
+    {
+      "timestamp_utc": "2024-08-23T19:00:00Z",
+      "price_eur_mwh": 123.15,
+      "load_actual_mwh": 52368.5,
+      "load_forecast_mwh": 50481.75
+    },
+    {
+      "timestamp_utc": "2024-08-23T20:00:00Z",
+      "price_eur_mwh": 119.54,
+      "load_actual_mwh": 48422.25,
+      "load_forecast_mwh": 47349.0
+    },
+    {
+      "timestamp_utc": "2024-08-23T21:00:00Z",
+      "price_eur_mwh": 100.5,
+      "load_actual_mwh": 44704.25,
+      "load_forecast_mwh": 44036.5
+    },
+    {
+      "timestamp_utc": "2024-08-23T22:00:00Z",
+      "price_eur_mwh": 110.45,
+      "load_actual_mwh": 42689.25,
+      "load_forecast_mwh": 41504.25
+    },
+    {
+      "timestamp_utc": "2024-08-23T23:00:00Z",
+      "price_eur_mwh": 103.78,
+      "load_actual_mwh": 40618.5,
+      "load_forecast_mwh": 39807.0
+    },
+    {
+      "timestamp_utc": "2024-08-24T00:00:00Z",
+      "price_eur_mwh": 100.42,
+      "load_actual_mwh": 39375.0,
+      "load_forecast_mwh": 38761.0
+    },
+    {
+      "timestamp_utc": "2024-08-24T01:00:00Z",
+      "price_eur_mwh": 100.28,
+      "load_actual_mwh": 38741.75,
+      "load_forecast_mwh": 38178.75
+    },
+    {
+      "timestamp_utc": "2024-08-24T02:00:00Z",
+      "price_eur_mwh": 100.9,
+      "load_actual_mwh": 38631.25,
+      "load_forecast_mwh": 38118.75
+    },
+    {
+      "timestamp_utc": "2024-08-24T03:00:00Z",
+      "price_eur_mwh": 105.4,
+      "load_actual_mwh": 39585.75,
+      "load_forecast_mwh": 38295.5
+    },
+    {
+      "timestamp_utc": "2024-08-24T04:00:00Z",
+      "price_eur_mwh": 101.02,
+      "load_actual_mwh": 41089.75,
+      "load_forecast_mwh": 39208.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T05:00:00Z",
+      "price_eur_mwh": 102.23,
+      "load_actual_mwh": 43129.25,
+      "load_forecast_mwh": 41895.75
+    },
+    {
+      "timestamp_utc": "2024-08-24T06:00:00Z",
+      "price_eur_mwh": 76.22,
+      "load_actual_mwh": 46242.25,
+      "load_forecast_mwh": 45422.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T07:00:00Z",
+      "price_eur_mwh": 15.0,
+      "load_actual_mwh": 49388.5,
+      "load_forecast_mwh": 48187.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T08:00:00Z",
+      "price_eur_mwh": -0.03,
+      "load_actual_mwh": 51014.75,
+      "load_forecast_mwh": 49652.0
+    },
+    {
+      "timestamp_utc": "2024-08-24T09:00:00Z",
+      "price_eur_mwh": -6.85,
+      "load_actual_mwh": 51632.5,
+      "load_forecast_mwh": 50596.0
+    },
+    {
+      "timestamp_utc": "2024-08-24T10:00:00Z",
+      "price_eur_mwh": -18.68,
+      "load_actual_mwh": 50212.25,
+      "load_forecast_mwh": 50601.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T11:00:00Z",
+      "price_eur_mwh": -40.09,
+      "load_actual_mwh": 47936.75,
+      "load_forecast_mwh": 49392.5
+    },
+    {
+      "timestamp_utc": "2024-08-24T12:00:00Z",
+      "price_eur_mwh": -44.18,
+      "load_actual_mwh": 46421.0,
+      "load_forecast_mwh": 48127.75
+    },
+    {
+      "timestamp_utc": "2024-08-24T13:00:00Z",
+      "price_eur_mwh": -27.64,
+      "load_actual_mwh": 46729.75,
+      "load_forecast_mwh": 47800.5
+    },
+    {
+      "timestamp_utc": "2024-08-24T14:00:00Z",
+      "price_eur_mwh": -8.15,
+      "load_actual_mwh": 47570.0,
+      "load_forecast_mwh": 46713.75
+    },
+    {
+      "timestamp_utc": "2024-08-24T15:00:00Z",
+      "price_eur_mwh": -0.99,
+      "load_actual_mwh": 49217.5,
+      "load_forecast_mwh": 46559.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T16:00:00Z",
+      "price_eur_mwh": 71.68,
+      "load_actual_mwh": 50269.0,
+      "load_forecast_mwh": 46876.0
+    },
+    {
+      "timestamp_utc": "2024-08-24T17:00:00Z",
+      "price_eur_mwh": 91.52,
+      "load_actual_mwh": 49555.0,
+      "load_forecast_mwh": 46713.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T18:00:00Z",
+      "price_eur_mwh": 80.08,
+      "load_actual_mwh": 48748.5,
+      "load_forecast_mwh": 45444.5
+    },
+    {
+      "timestamp_utc": "2024-08-24T19:00:00Z",
+      "price_eur_mwh": 68.91,
+      "load_actual_mwh": 48945.0,
+      "load_forecast_mwh": 43649.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T20:00:00Z",
+      "price_eur_mwh": 64.14,
+      "load_actual_mwh": 46493.75,
+      "load_forecast_mwh": 41558.25
+    },
+    {
+      "timestamp_utc": "2024-08-24T21:00:00Z",
+      "price_eur_mwh": 50.0,
+      "load_actual_mwh": 43281.25,
+      "load_forecast_mwh": 39108.5
+    },
+    {
+      "timestamp_utc": "2024-08-24T22:00:00Z",
+      "price_eur_mwh": 0.37,
+      "load_actual_mwh": 40632.25,
+      "load_forecast_mwh": 37620.0
+    },
+    {
+      "timestamp_utc": "2024-08-24T23:00:00Z",
+      "price_eur_mwh": -0.02,
+      "load_actual_mwh": 38033.75,
+      "load_forecast_mwh": 36020.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T00:00:00Z",
+      "price_eur_mwh": -0.34,
+      "load_actual_mwh": 36867.5,
+      "load_forecast_mwh": 34748.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T01:00:00Z",
+      "price_eur_mwh": -1.0,
+      "load_actual_mwh": 36058.25,
+      "load_forecast_mwh": 34361.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T02:00:00Z",
+      "price_eur_mwh": -0.89,
+      "load_actual_mwh": 35483.5,
+      "load_forecast_mwh": 34494.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T03:00:00Z",
+      "price_eur_mwh": -0.42,
+      "load_actual_mwh": 36586.75,
+      "load_forecast_mwh": 34891.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T04:00:00Z",
+      "price_eur_mwh": -0.05,
+      "load_actual_mwh": 37352.0,
+      "load_forecast_mwh": 35671.75
+    },
+    {
+      "timestamp_utc": "2024-08-25T05:00:00Z",
+      "price_eur_mwh": -0.01,
+      "load_actual_mwh": 39027.0,
+      "load_forecast_mwh": 37362.25
+    },
+    {
+      "timestamp_utc": "2024-08-25T06:00:00Z",
+      "price_eur_mwh": -0.01,
+      "load_actual_mwh": 41999.0,
+      "load_forecast_mwh": 40824.25
+    },
+    {
+      "timestamp_utc": "2024-08-25T07:00:00Z",
+      "price_eur_mwh": -1.39,
+      "load_actual_mwh": 44330.75,
+      "load_forecast_mwh": 44322.75
+    },
+    {
+      "timestamp_utc": "2024-08-25T08:00:00Z",
+      "price_eur_mwh": -6.07,
+      "load_actual_mwh": 45929.5,
+      "load_forecast_mwh": 46409.25
+    },
+    {
+      "timestamp_utc": "2024-08-25T09:00:00Z",
+      "price_eur_mwh": -10.1,
+      "load_actual_mwh": 46895.0,
+      "load_forecast_mwh": 48017.0
+    },
+    {
+      "timestamp_utc": "2024-08-25T10:00:00Z",
+      "price_eur_mwh": -15.5,
+      "load_actual_mwh": 46627.5,
+      "load_forecast_mwh": 47832.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T11:00:00Z",
+      "price_eur_mwh": -20.01,
+      "load_actual_mwh": 44151.25,
+      "load_forecast_mwh": 46318.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T12:00:00Z",
+      "price_eur_mwh": -19.83,
+      "load_actual_mwh": 42663.5,
+      "load_forecast_mwh": 45118.0
+    },
+    {
+      "timestamp_utc": "2024-08-25T13:00:00Z",
+      "price_eur_mwh": -10.15,
+      "load_actual_mwh": 42161.75,
+      "load_forecast_mwh": 44599.0
+    },
+    {
+      "timestamp_utc": "2024-08-25T14:00:00Z",
+      "price_eur_mwh": -5.01,
+      "load_actual_mwh": 42636.0,
+      "load_forecast_mwh": 44394.25
+    },
+    {
+      "timestamp_utc": "2024-08-25T15:00:00Z",
+      "price_eur_mwh": 1.0,
+      "load_actual_mwh": 45058.25,
+      "load_forecast_mwh": 45280.25
+    },
+    {
+      "timestamp_utc": "2024-08-25T16:00:00Z",
+      "price_eur_mwh": 87.04,
+      "load_actual_mwh": 46900.75,
+      "load_forecast_mwh": 46338.0
+    },
+    {
+      "timestamp_utc": "2024-08-25T17:00:00Z",
+      "price_eur_mwh": 110.0,
+      "load_actual_mwh": 47148.5,
+      "load_forecast_mwh": 46045.0
+    },
+    {
+      "timestamp_utc": "2024-08-25T18:00:00Z",
+      "price_eur_mwh": 119.45,
+      "load_actual_mwh": 46970.5,
+      "load_forecast_mwh": 45504.75
+    },
+    {
+      "timestamp_utc": "2024-08-25T19:00:00Z",
+      "price_eur_mwh": 105.49,
+      "load_actual_mwh": 46288.25,
+      "load_forecast_mwh": 44506.75
+    },
+    {
+      "timestamp_utc": "2024-08-25T20:00:00Z",
+      "price_eur_mwh": 99.7,
+      "load_actual_mwh": 44144.5,
+      "load_forecast_mwh": 43032.0
+    },
+    {
+      "timestamp_utc": "2024-08-25T21:00:00Z",
+      "price_eur_mwh": 92.48,
+      "load_actual_mwh": 41295.75,
+      "load_forecast_mwh": 40558.5
+    },
+    {
+      "timestamp_utc": "2024-08-25T22:00:00Z",
+      "price_eur_mwh": 92.75,
+      "load_actual_mwh": 39008.5,
+      "load_forecast_mwh": 38733.75
+    },
+    {
+      "timestamp_utc": "2024-08-25T23:00:00Z",
+      "price_eur_mwh": 85.65,
+      "load_actual_mwh": 38072.5,
+      "load_forecast_mwh": 37599.75
+    },
+    {
+      "timestamp_utc": "2024-08-26T00:00:00Z",
+      "price_eur_mwh": 80.94,
+      "load_actual_mwh": 38021.5,
+      "load_forecast_mwh": 37266.0
+    },
+    {
+      "timestamp_utc": "2024-08-26T01:00:00Z",
+      "price_eur_mwh": 83.36,
+      "load_actual_mwh": 38435.25,
+      "load_forecast_mwh": 37807.25
+    },
+    {
+      "timestamp_utc": "2024-08-26T02:00:00Z",
+      "price_eur_mwh": 82.43,
+      "load_actual_mwh": 39809.75,
+      "load_forecast_mwh": 39772.75
+    },
+    {
+      "timestamp_utc": "2024-08-26T03:00:00Z",
+      "price_eur_mwh": 83.48,
+      "load_actual_mwh": 44051.5,
+      "load_forecast_mwh": 43569.0
+    },
+    {
+      "timestamp_utc": "2024-08-26T04:00:00Z",
+      "price_eur_mwh": 113.11,
+      "load_actual_mwh": 51332.0,
+      "load_forecast_mwh": 50561.75
+    },
+    {
+      "timestamp_utc": "2024-08-26T05:00:00Z",
+      "price_eur_mwh": 153.69,
+      "load_actual_mwh": 55732.25,
+      "load_forecast_mwh": 55288.5
+    },
+    {
+      "timestamp_utc": "2024-08-26T06:00:00Z",
+      "price_eur_mwh": 130.97,
+      "load_actual_mwh": 58961.5,
+      "load_forecast_mwh": 58331.25
+    },
+    {
+      "timestamp_utc": "2024-08-26T07:00:00Z",
+      "price_eur_mwh": 98.93,
+      "load_actual_mwh": 59541.25,
+      "load_forecast_mwh": 59627.75
+    },
+    {
+      "timestamp_utc": "2024-08-26T08:00:00Z",
+      "price_eur_mwh": 77.0,
+      "load_actual_mwh": 59836.75,
+      "load_forecast_mwh": 60468.5
+    },
+    {
+      "timestamp_utc": "2024-08-26T09:00:00Z",
+      "price_eur_mwh": 65.31,
+      "load_actual_mwh": 59813.0,
+      "load_forecast_mwh": 61532.25
+    },
+    {
+      "timestamp_utc": "2024-08-26T10:00:00Z",
+      "price_eur_mwh": 23.07,
+      "load_actual_mwh": 59394.0,
+      "load_forecast_mwh": 61662.75
+    },
+    {
+      "timestamp_utc": "2024-08-26T11:00:00Z",
+      "price_eur_mwh": 17.55,
+      "load_actual_mwh": 58334.75,
+      "load_forecast_mwh": 60862.0
+    },
+    {
+      "timestamp_utc": "2024-08-26T12:00:00Z",
+      "price_eur_mwh": 42.88,
+      "load_actual_mwh": 56402.5,
+      "load_forecast_mwh": 59738.5
+    },
+    {
+      "timestamp_utc": "2024-08-26T13:00:00Z",
+      "price_eur_mwh": 71.05,
+      "load_actual_mwh": 55735.75,
+      "load_forecast_mwh": 58969.25
+    },
+    {
+      "timestamp_utc": "2024-08-26T14:00:00Z",
+      "price_eur_mwh": 88.0,
+      "load_actual_mwh": 55246.5,
+      "load_forecast_mwh": 57810.75
+    },
+    {
+      "timestamp_utc": "2024-08-26T15:00:00Z",
+      "price_eur_mwh": 99.47,
+      "load_actual_mwh": 56238.75,
+      "load_forecast_mwh": 57699.5
+    },
+    {
+      "timestamp_utc": "2024-08-26T16:00:00Z",
+      "price_eur_mwh": 116.82,
+      "load_actual_mwh": 56788.75,
+      "load_forecast_mwh": 57304.25
+    },
+    {
+      "timestamp_utc": "2024-08-26T17:00:00Z",
+      "price_eur_mwh": 190.31,
+      "load_actual_mwh": 56359.5,
+      "load_forecast_mwh": 56771.75
+    },
+    {
+      "timestamp_utc": "2024-08-26T18:00:00Z",
+      "price_eur_mwh": 231.06,
+      "load_actual_mwh": 54813.75,
+      "load_forecast_mwh": 54892.0
+    },
+    {
+      "timestamp_utc": "2024-08-26T19:00:00Z",
+      "price_eur_mwh": 143.82,
+      "load_actual_mwh": 52448.0,
+      "load_forecast_mwh": 52503.5
+    },
+    {
+      "timestamp_utc": "2024-08-26T20:00:00Z",
+      "price_eur_mwh": 110.86,
+      "load_actual_mwh": 48874.75,
+      "load_forecast_mwh": 48834.0
+    },
+    {
+      "timestamp_utc": "2024-08-26T21:00:00Z",
+      "price_eur_mwh": 107.54,
+      "load_actual_mwh": 45706.0,
+      "load_forecast_mwh": 45340.0
+    },
+    {
+      "timestamp_utc": "2024-08-26T22:00:00Z",
+      "price_eur_mwh": 98.41,
+      "load_actual_mwh": 43186.5,
+      "load_forecast_mwh": 43032.25
+    },
+    {
+      "timestamp_utc": "2024-08-26T23:00:00Z",
+      "price_eur_mwh": 89.91,
+      "load_actual_mwh": 42023.25,
+      "load_forecast_mwh": 41384.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T00:00:00Z",
+      "price_eur_mwh": 86.45,
+      "load_actual_mwh": 41329.0,
+      "load_forecast_mwh": 40954.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T01:00:00Z",
+      "price_eur_mwh": 87.3,
+      "load_actual_mwh": 41325.5,
+      "load_forecast_mwh": 41418.75
+    },
+    {
+      "timestamp_utc": "2024-08-27T02:00:00Z",
+      "price_eur_mwh": 89.1,
+      "load_actual_mwh": 42373.75,
+      "load_forecast_mwh": 42706.25
+    },
+    {
+      "timestamp_utc": "2024-08-27T03:00:00Z",
+      "price_eur_mwh": 100.16,
+      "load_actual_mwh": 45241.25,
+      "load_forecast_mwh": 45551.25
+    },
+    {
+      "timestamp_utc": "2024-08-27T04:00:00Z",
+      "price_eur_mwh": 125.76,
+      "load_actual_mwh": 51487.75,
+      "load_forecast_mwh": 51600.75
+    },
+    {
+      "timestamp_utc": "2024-08-27T05:00:00Z",
+      "price_eur_mwh": 137.99,
+      "load_actual_mwh": 56053.25,
+      "load_forecast_mwh": 56383.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T06:00:00Z",
+      "price_eur_mwh": 116.01,
+      "load_actual_mwh": 59598.25,
+      "load_forecast_mwh": 59357.5
+    },
+    {
+      "timestamp_utc": "2024-08-27T07:00:00Z",
+      "price_eur_mwh": 89.94,
+      "load_actual_mwh": 60236.0,
+      "load_forecast_mwh": 60612.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T08:00:00Z",
+      "price_eur_mwh": 73.72,
+      "load_actual_mwh": 60136.75,
+      "load_forecast_mwh": 61511.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T09:00:00Z",
+      "price_eur_mwh": 29.13,
+      "load_actual_mwh": 59624.0,
+      "load_forecast_mwh": 62451.25
+    },
+    {
+      "timestamp_utc": "2024-08-27T10:00:00Z",
+      "price_eur_mwh": 5.07,
+      "load_actual_mwh": 58591.75,
+      "load_forecast_mwh": 62579.5
+    },
+    {
+      "timestamp_utc": "2024-08-27T11:00:00Z",
+      "price_eur_mwh": 1.18,
+      "load_actual_mwh": 57048.75,
+      "load_forecast_mwh": 61316.5
+    },
+    {
+      "timestamp_utc": "2024-08-27T12:00:00Z",
+      "price_eur_mwh": 2.33,
+      "load_actual_mwh": 55647.5,
+      "load_forecast_mwh": 59488.75
+    },
+    {
+      "timestamp_utc": "2024-08-27T13:00:00Z",
+      "price_eur_mwh": 23.45,
+      "load_actual_mwh": 55118.75,
+      "load_forecast_mwh": 58805.5
+    },
+    {
+      "timestamp_utc": "2024-08-27T14:00:00Z",
+      "price_eur_mwh": 52.5,
+      "load_actual_mwh": 55010.25,
+      "load_forecast_mwh": 57858.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T15:00:00Z",
+      "price_eur_mwh": 88.71,
+      "load_actual_mwh": 55910.0,
+      "load_forecast_mwh": 58192.25
+    },
+    {
+      "timestamp_utc": "2024-08-27T16:00:00Z",
+      "price_eur_mwh": 116.06,
+      "load_actual_mwh": 57018.0,
+      "load_forecast_mwh": 58018.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T17:00:00Z",
+      "price_eur_mwh": 232.25,
+      "load_actual_mwh": 56797.75,
+      "load_forecast_mwh": 57289.0
+    },
+    {
+      "timestamp_utc": "2024-08-27T18:00:00Z",
+      "price_eur_mwh": 217.92,
+      "load_actual_mwh": 56387.5,
+      "load_forecast_mwh": 55316.75
+    },
+    {
+      "timestamp_utc": "2024-08-27T19:00:00Z",
+      "price_eur_mwh": 120.52,
+      "load_actual_mwh": 53869.5,
+      "load_forecast_mwh": 52890.75
+    },
+    {
+      "timestamp_utc": "2024-08-27T20:00:00Z",
+      "price_eur_mwh": 105.21,
+      "load_actual_mwh": 50295.0,
+      "load_forecast_mwh": 49536.5
+    },
+    {
+      "timestamp_utc": "2024-08-27T21:00:00Z",
+      "price_eur_mwh": 92.47,
+      "load_actual_mwh": 46528.0,
+      "load_forecast_mwh": 45883.75
+    },
+    {
+      "timestamp_utc": "2024-08-27T22:00:00Z",
+      "price_eur_mwh": 90.47,
+      "load_actual_mwh": 44842.75,
+      "load_forecast_mwh": 43410.25
+    },
+    {
+      "timestamp_utc": "2024-08-27T23:00:00Z",
+      "price_eur_mwh": 91.31,
+      "load_actual_mwh": 43470.0,
+      "load_forecast_mwh": 42235.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T00:00:00Z",
+      "price_eur_mwh": 87.48,
+      "load_actual_mwh": 42689.75,
+      "load_forecast_mwh": 41677.25
+    },
+    {
+      "timestamp_utc": "2024-08-28T01:00:00Z",
+      "price_eur_mwh": 89.2,
+      "load_actual_mwh": 42908.0,
+      "load_forecast_mwh": 42125.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T02:00:00Z",
+      "price_eur_mwh": 91.74,
+      "load_actual_mwh": 43747.5,
+      "load_forecast_mwh": 43309.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T03:00:00Z",
+      "price_eur_mwh": 92.35,
+      "load_actual_mwh": 46632.0,
+      "load_forecast_mwh": 46216.75
+    },
+    {
+      "timestamp_utc": "2024-08-28T04:00:00Z",
+      "price_eur_mwh": 114.99,
+      "load_actual_mwh": 52635.75,
+      "load_forecast_mwh": 52080.75
+    },
+    {
+      "timestamp_utc": "2024-08-28T05:00:00Z",
+      "price_eur_mwh": 128.57,
+      "load_actual_mwh": 56759.25,
+      "load_forecast_mwh": 56422.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T06:00:00Z",
+      "price_eur_mwh": 121.0,
+      "load_actual_mwh": 59314.5,
+      "load_forecast_mwh": 59395.25
+    },
+    {
+      "timestamp_utc": "2024-08-28T07:00:00Z",
+      "price_eur_mwh": 105.4,
+      "load_actual_mwh": 59767.25,
+      "load_forecast_mwh": 60999.0
+    },
+    {
+      "timestamp_utc": "2024-08-28T08:00:00Z",
+      "price_eur_mwh": 87.56,
+      "load_actual_mwh": 60511.0,
+      "load_forecast_mwh": 61984.25
+    },
+    {
+      "timestamp_utc": "2024-08-28T09:00:00Z",
+      "price_eur_mwh": 68.78,
+      "load_actual_mwh": 60728.75,
+      "load_forecast_mwh": 62615.25
+    },
+    {
+      "timestamp_utc": "2024-08-28T10:00:00Z",
+      "price_eur_mwh": 35.14,
+      "load_actual_mwh": 59725.75,
+      "load_forecast_mwh": 62386.75
+    },
+    {
+      "timestamp_utc": "2024-08-28T11:00:00Z",
+      "price_eur_mwh": 10.4,
+      "load_actual_mwh": 58989.0,
+      "load_forecast_mwh": 61260.75
+    },
+    {
+      "timestamp_utc": "2024-08-28T12:00:00Z",
+      "price_eur_mwh": 8.17,
+      "load_actual_mwh": 57839.0,
+      "load_forecast_mwh": 59731.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T13:00:00Z",
+      "price_eur_mwh": 54.84,
+      "load_actual_mwh": 57854.0,
+      "load_forecast_mwh": 59159.75
+    },
+    {
+      "timestamp_utc": "2024-08-28T14:00:00Z",
+      "price_eur_mwh": 78.56,
+      "load_actual_mwh": 58127.0,
+      "load_forecast_mwh": 58154.25
+    },
+    {
+      "timestamp_utc": "2024-08-28T15:00:00Z",
+      "price_eur_mwh": 92.37,
+      "load_actual_mwh": 59221.75,
+      "load_forecast_mwh": 58216.0
+    },
+    {
+      "timestamp_utc": "2024-08-28T16:00:00Z",
+      "price_eur_mwh": 111.57,
+      "load_actual_mwh": 59949.5,
+      "load_forecast_mwh": 58019.0
+    },
+    {
+      "timestamp_utc": "2024-08-28T17:00:00Z",
+      "price_eur_mwh": 201.91,
+      "load_actual_mwh": 59843.25,
+      "load_forecast_mwh": 57240.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T18:00:00Z",
+      "price_eur_mwh": 204.03,
+      "load_actual_mwh": 59079.0,
+      "load_forecast_mwh": 55552.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T19:00:00Z",
+      "price_eur_mwh": 124.84,
+      "load_actual_mwh": 57093.25,
+      "load_forecast_mwh": 52952.5
+    },
+    {
+      "timestamp_utc": "2024-08-28T20:00:00Z",
+      "price_eur_mwh": 111.76,
+      "load_actual_mwh": 53329.5,
+      "load_forecast_mwh": 49223.75
+    },
+    {
+      "timestamp_utc": "2024-08-28T21:00:00Z",
+      "price_eur_mwh": 99.7,
+      "load_actual_mwh": 49714.5,
+      "load_forecast_mwh": 46087.25
+    },
+    {
+      "timestamp_utc": "2024-08-28T22:00:00Z",
+      "price_eur_mwh": 93.53,
+      "load_actual_mwh": 47126.75,
+      "load_forecast_mwh": 43117.0
+    },
+    {
+      "timestamp_utc": "2024-08-28T23:00:00Z",
+      "price_eur_mwh": 93.98,
+      "load_actual_mwh": 45566.5,
+      "load_forecast_mwh": 41641.75
+    },
+    {
+      "timestamp_utc": "2024-08-29T00:00:00Z",
+      "price_eur_mwh": 89.81,
+      "load_actual_mwh": 44949.25,
+      "load_forecast_mwh": 40741.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T01:00:00Z",
+      "price_eur_mwh": 88.68,
+      "load_actual_mwh": 44198.0,
+      "load_forecast_mwh": 41328.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T02:00:00Z",
+      "price_eur_mwh": 89.37,
+      "load_actual_mwh": 44787.25,
+      "load_forecast_mwh": 42511.5
+    },
+    {
+      "timestamp_utc": "2024-08-29T03:00:00Z",
+      "price_eur_mwh": 101.23,
+      "load_actual_mwh": 47580.25,
+      "load_forecast_mwh": 45514.0
+    },
+    {
+      "timestamp_utc": "2024-08-29T04:00:00Z",
+      "price_eur_mwh": 125.46,
+      "load_actual_mwh": 53725.5,
+      "load_forecast_mwh": 51989.75
+    },
+    {
+      "timestamp_utc": "2024-08-29T05:00:00Z",
+      "price_eur_mwh": 134.47,
+      "load_actual_mwh": 58155.5,
+      "load_forecast_mwh": 56371.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T06:00:00Z",
+      "price_eur_mwh": 126.24,
+      "load_actual_mwh": 61360.75,
+      "load_forecast_mwh": 59657.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T07:00:00Z",
+      "price_eur_mwh": 108.71,
+      "load_actual_mwh": 62198.75,
+      "load_forecast_mwh": 60553.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T08:00:00Z",
+      "price_eur_mwh": 92.19,
+      "load_actual_mwh": 62437.75,
+      "load_forecast_mwh": 60427.0
+    },
+    {
+      "timestamp_utc": "2024-08-29T09:00:00Z",
+      "price_eur_mwh": 84.4,
+      "load_actual_mwh": 62559.75,
+      "load_forecast_mwh": 61100.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T10:00:00Z",
+      "price_eur_mwh": 65.78,
+      "load_actual_mwh": 62413.0,
+      "load_forecast_mwh": 61494.0
+    },
+    {
+      "timestamp_utc": "2024-08-29T11:00:00Z",
+      "price_eur_mwh": 45.25,
+      "load_actual_mwh": 61320.0,
+      "load_forecast_mwh": 60901.75
+    },
+    {
+      "timestamp_utc": "2024-08-29T12:00:00Z",
+      "price_eur_mwh": 51.32,
+      "load_actual_mwh": 59629.5,
+      "load_forecast_mwh": 59638.5
+    },
+    {
+      "timestamp_utc": "2024-08-29T13:00:00Z",
+      "price_eur_mwh": 79.45,
+      "load_actual_mwh": 59472.75,
+      "load_forecast_mwh": 59209.5
+    },
+    {
+      "timestamp_utc": "2024-08-29T14:00:00Z",
+      "price_eur_mwh": 90.15,
+      "load_actual_mwh": 59424.5,
+      "load_forecast_mwh": 58142.75
+    },
+    {
+      "timestamp_utc": "2024-08-29T15:00:00Z",
+      "price_eur_mwh": 105.38,
+      "load_actual_mwh": 59394.0,
+      "load_forecast_mwh": 57763.75
+    },
+    {
+      "timestamp_utc": "2024-08-29T16:00:00Z",
+      "price_eur_mwh": 123.51,
+      "load_actual_mwh": 59588.0,
+      "load_forecast_mwh": 57287.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T17:00:00Z",
+      "price_eur_mwh": 227.49,
+      "load_actual_mwh": 59282.25,
+      "load_forecast_mwh": 56374.5
+    },
+    {
+      "timestamp_utc": "2024-08-29T18:00:00Z",
+      "price_eur_mwh": 289.27,
+      "load_actual_mwh": 58359.25,
+      "load_forecast_mwh": 54885.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T19:00:00Z",
+      "price_eur_mwh": 169.09,
+      "load_actual_mwh": 55528.5,
+      "load_forecast_mwh": 52432.75
+    },
+    {
+      "timestamp_utc": "2024-08-29T20:00:00Z",
+      "price_eur_mwh": 125.0,
+      "load_actual_mwh": 51305.5,
+      "load_forecast_mwh": 48624.5
+    },
+    {
+      "timestamp_utc": "2024-08-29T21:00:00Z",
+      "price_eur_mwh": 110.1,
+      "load_actual_mwh": 47937.5,
+      "load_forecast_mwh": 45265.5
+    },
+    {
+      "timestamp_utc": "2024-08-29T22:00:00Z",
+      "price_eur_mwh": 109.88,
+      "load_actual_mwh": 45553.25,
+      "load_forecast_mwh": 43222.25
+    },
+    {
+      "timestamp_utc": "2024-08-29T23:00:00Z",
+      "price_eur_mwh": 100.3,
+      "load_actual_mwh": 43997.5,
+      "load_forecast_mwh": 41776.0
+    },
+    {
+      "timestamp_utc": "2024-08-30T00:00:00Z",
+      "price_eur_mwh": 93.53,
+      "load_actual_mwh": 43101.25,
+      "load_forecast_mwh": 40954.75
+    },
+    {
+      "timestamp_utc": "2024-08-30T01:00:00Z",
+      "price_eur_mwh": 93.28,
+      "load_actual_mwh": 43279.75,
+      "load_forecast_mwh": 41386.5
+    },
+    {
+      "timestamp_utc": "2024-08-30T02:00:00Z",
+      "price_eur_mwh": 97.62,
+      "load_actual_mwh": 43808.5,
+      "load_forecast_mwh": 42262.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T03:00:00Z",
+      "price_eur_mwh": 107.37,
+      "load_actual_mwh": 47056.0,
+      "load_forecast_mwh": 45093.5
+    },
+    {
+      "timestamp_utc": "2024-08-30T04:00:00Z",
+      "price_eur_mwh": 136.83,
+      "load_actual_mwh": 53123.5,
+      "load_forecast_mwh": 51370.5
+    },
+    {
+      "timestamp_utc": "2024-08-30T05:00:00Z",
+      "price_eur_mwh": 151.06,
+      "load_actual_mwh": 57682.0,
+      "load_forecast_mwh": 56220.75
+    },
+    {
+      "timestamp_utc": "2024-08-30T06:00:00Z",
+      "price_eur_mwh": 133.55,
+      "load_actual_mwh": 61239.25,
+      "load_forecast_mwh": 59274.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T07:00:00Z",
+      "price_eur_mwh": 113.7,
+      "load_actual_mwh": 62714.25,
+      "load_forecast_mwh": 60235.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T08:00:00Z",
+      "price_eur_mwh": 98.24,
+      "load_actual_mwh": 63665.5,
+      "load_forecast_mwh": 61016.0
+    },
+    {
+      "timestamp_utc": "2024-08-30T09:00:00Z",
+      "price_eur_mwh": 89.95,
+      "load_actual_mwh": 64092.0,
+      "load_forecast_mwh": 61412.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T10:00:00Z",
+      "price_eur_mwh": 86.13,
+      "load_actual_mwh": 62307.5,
+      "load_forecast_mwh": 60789.75
+    },
+    {
+      "timestamp_utc": "2024-08-30T11:00:00Z",
+      "price_eur_mwh": 80.2,
+      "load_actual_mwh": 60299.25,
+      "load_forecast_mwh": 59447.0
+    },
+    {
+      "timestamp_utc": "2024-08-30T12:00:00Z",
+      "price_eur_mwh": 79.08,
+      "load_actual_mwh": 58425.25,
+      "load_forecast_mwh": 57837.0
+    },
+    {
+      "timestamp_utc": "2024-08-30T13:00:00Z",
+      "price_eur_mwh": 81.98,
+      "load_actual_mwh": 57379.25,
+      "load_forecast_mwh": 57039.0
+    },
+    {
+      "timestamp_utc": "2024-08-30T14:00:00Z",
+      "price_eur_mwh": 86.35,
+      "load_actual_mwh": 57045.25,
+      "load_forecast_mwh": 56011.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T15:00:00Z",
+      "price_eur_mwh": 101.96,
+      "load_actual_mwh": 57180.0,
+      "load_forecast_mwh": 55824.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T16:00:00Z",
+      "price_eur_mwh": 119.99,
+      "load_actual_mwh": 56635.5,
+      "load_forecast_mwh": 55787.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T17:00:00Z",
+      "price_eur_mwh": 156.11,
+      "load_actual_mwh": 56016.0,
+      "load_forecast_mwh": 54727.75
+    },
+    {
+      "timestamp_utc": "2024-08-30T18:00:00Z",
+      "price_eur_mwh": 137.29,
+      "load_actual_mwh": 54733.75,
+      "load_forecast_mwh": 52853.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T19:00:00Z",
+      "price_eur_mwh": 112.71,
+      "load_actual_mwh": 51816.75,
+      "load_forecast_mwh": 50290.25
+    },
+    {
+      "timestamp_utc": "2024-08-30T20:00:00Z",
+      "price_eur_mwh": 96.83,
+      "load_actual_mwh": 48328.0,
+      "load_forecast_mwh": 46898.5
+    },
+    {
+      "timestamp_utc": "2024-08-30T21:00:00Z",
+      "price_eur_mwh": 95.36,
+      "load_actual_mwh": 45067.75,
+      "load_forecast_mwh": 43652.75
+    },
+    {
+      "timestamp_utc": "2024-08-30T22:00:00Z",
+      "price_eur_mwh": 107.67,
+      "load_actual_mwh": 42494.0,
+      "load_forecast_mwh": 40826.5
+    },
+    {
+      "timestamp_utc": "2024-08-30T23:00:00Z",
+      "price_eur_mwh": 105.44,
+      "load_actual_mwh": 40291.5,
+      "load_forecast_mwh": 39187.25
+    },
+    {
+      "timestamp_utc": "2024-08-31T00:00:00Z",
+      "price_eur_mwh": 102.06,
+      "load_actual_mwh": 38773.25,
+      "load_forecast_mwh": 37937.75
+    },
+    {
+      "timestamp_utc": "2024-08-31T01:00:00Z",
+      "price_eur_mwh": 99.04,
+      "load_actual_mwh": 38555.5,
+      "load_forecast_mwh": 37558.5
+    },
+    {
+      "timestamp_utc": "2024-08-31T02:00:00Z",
+      "price_eur_mwh": 96.65,
+      "load_actual_mwh": 38527.5,
+      "load_forecast_mwh": 37631.25
+    },
+    {
+      "timestamp_utc": "2024-08-31T03:00:00Z",
+      "price_eur_mwh": 98.07,
+      "load_actual_mwh": 39077.75,
+      "load_forecast_mwh": 38092.5
+    },
+    {
+      "timestamp_utc": "2024-08-31T04:00:00Z",
+      "price_eur_mwh": 109.97,
+      "load_actual_mwh": 40506.0,
+      "load_forecast_mwh": 39343.75
+    },
+    {
+      "timestamp_utc": "2024-08-31T05:00:00Z",
+      "price_eur_mwh": 110.75,
+      "load_actual_mwh": 42484.25,
+      "load_forecast_mwh": 41867.0
+    },
+    {
+      "timestamp_utc": "2024-08-31T06:00:00Z",
+      "price_eur_mwh": 109.97,
+      "load_actual_mwh": 45774.5,
+      "load_forecast_mwh": 45383.5
+    },
+    {
+      "timestamp_utc": "2024-08-31T07:00:00Z",
+      "price_eur_mwh": 84.92,
+      "load_actual_mwh": 48694.25,
+      "load_forecast_mwh": 48216.5
+    },
+    {
+      "timestamp_utc": "2024-08-31T08:00:00Z",
+      "price_eur_mwh": 60.13,
+      "load_actual_mwh": 49980.25,
+      "load_forecast_mwh": 49723.0
+    },
+    {
+      "timestamp_utc": "2024-08-31T09:00:00Z",
+      "price_eur_mwh": 18.34,
+      "load_actual_mwh": 50317.0,
+      "load_forecast_mwh": 50647.0
+    },
+    {
+      "timestamp_utc": "2024-08-31T10:00:00Z",
+      "price_eur_mwh": 0.47,
+      "load_actual_mwh": 48994.25,
+      "load_forecast_mwh": 50575.0
+    },
+    {
+      "timestamp_utc": "2024-08-31T11:00:00Z",
+      "price_eur_mwh": -0.59,
+      "load_actual_mwh": 47382.25,
+      "load_forecast_mwh": 49027.25
+    }
+  ],
+  "expected_features": [
+    [
+      46421.0,
+      48127.75,
+      -0.4999999999999997,
+      -0.8660254037844388,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      -40.09,
+      -16.55,
+      -1.51,
+      39.43,
+      59.40125,
+      57.070275314362114,
+      74.25892857142857,
+      47.61257506409951
+    ],
+    [
+      46729.75,
+      47800.5,
+      -0.7071067811865471,
+      -0.7071067811865479,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      -44.18,
+      -10.15,
+      -4.35,
+      39.56,
+      58.25000000000001,
+      58.91779438890039,
+      73.76125,
+      48.40912125399462
+    ],
+    [
+      47570.0,
+      46713.75,
+      -0.8660254037844384,
+      -0.5000000000000004,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      -27.64,
+      -9.18,
+      -0.09,
+      59.09,
+      57.52125,
+      59.90058273016726,
+      73.36125,
+      48.967824731218215
+    ],
+    [
+      49217.5,
+      46559.25,
+      -0.9659258262890683,
+      -0.25881904510252063,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      -8.15,
+      -0.03,
+      24.89,
+      88.4,
+      57.564166666666665,
+      59.85106434829507,
+      72.9610119047619,
+      49.35840425122679
+    ],
+    [
+      50269.0,
+      46876.0,
+      -1.0,
+      -1.8369701987210297e-16,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      -0.99,
+      50.2,
+      89.46,
+      119.68,
+      57.524166666666666,
+      59.89153666832503,
+      72.42892857142857,
+      49.67179241500691
+    ],
+    [
+      49555.0,
+      46713.25,
+      -0.9659258262890684,
+      0.2588190451025203,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      71.68,
+      99.53,
+      112.74,
+      140.56,
+      58.41916666666666,
+      59.93780522281496,
+      72.14321428571428,
+      49.5362388042944
+    ],
+    [
+      48748.5,
+      45444.5,
+      -0.8660254037844386,
+      0.5000000000000001,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      91.52,
+      118.57,
+      111.5,
+      149.18,
+      58.08541666666667,
+      59.720844294916574,
+      71.85130952380953,
+      49.27446009279731
+    ],
+    [
+      48945.0,
+      43649.25,
+      -0.7071067811865477,
+      0.7071067811865474,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      80.08,
+      123.15,
+      109.99,
+      126.98,
+      56.481666666666676,
+      58.53091755769335,
+      71.44,
+      48.912175798235396
+    ],
+    [
+      46493.75,
+      41558.25,
+      -0.5000000000000004,
+      0.8660254037844384,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      68.91,
+      119.54,
+      95.48,
+      116.7,
+      54.221666666666664,
+      56.8683397565573,
+      71.09434523809524,
+      48.722149688078424
+    ],
+    [
+      43281.25,
+      39108.5,
+      -0.25881904510252157,
+      0.9659258262890681,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      64.14,
+      100.5,
+      79.22,
+      105.82,
+      51.913333333333334,
+      55.20168260406025,
+      70.78148809523809,
+      48.59613829363263
+    ],
+    [
+      40632.25,
+      37620.0,
+      0.0,
+      1.0,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      50.0,
+      110.45,
+      51.9,
+      111.82,
+      49.80916666666667,
+      54.22294107115885,
+      70.44922619047618,
+      48.5459387226534
+    ],
+    [
+      38033.75,
+      36020.5,
+      0.25881904510252074,
+      0.9659258262890683,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      0.37,
+      103.78,
+      45.87,
+      112.8,
+      45.2225,
+      53.521612477339296,
+      69.78583333333333,
+      48.73832645023603
+    ],
+    [
+      36867.5,
+      34748.5,
+      0.49999999999999994,
+      0.8660254037844387,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -0.02,
+      100.42,
+      38.51,
+      106.17,
+      40.8975,
+      52.77265310004757,
+      69.11428571428571,
+      48.919018840092
+    ],
+    [
+      36058.25,
+      34361.5,
+      0.7071067811865475,
+      0.7071067811865476,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -0.34,
+      100.28,
+      26.36,
+      106.22,
+      36.69916666666667,
+      51.831036691284915,
+      68.48029761904762,
+      49.12564870807155
+    ],
+    [
+      35483.5,
+      34494.5,
+      0.8660254037844386,
+      0.5000000000000001,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -1.0,
+      100.9,
+      26.48,
+      104.75,
+      32.479166666666664,
+      50.5361685301796,
+      67.84208333333333,
+      49.328472579343995
+    ],
+    [
+      36586.75,
+      34891.5,
+      0.9659258262890683,
+      0.25881904510252074,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -0.89,
+      105.4,
+      30.59,
+      104.97,
+      28.237916666666667,
+      48.78532102636507,
+      67.21327380952381,
+      49.52808905445244
+    ],
+    [
+      37352.0,
+      35671.75,
+      1.0,
+      6.123233995736766e-17,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -0.42,
+      101.02,
+      64.22,
+      99.53,
+      23.82875,
+      46.22294022147403,
+      66.58595238095238,
+      49.71408396015994
+    ],
+    [
+      39027.0,
+      37362.25,
+      0.9659258262890683,
+      -0.25881904510252063,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -0.05,
+      102.23,
+      60.63,
+      95.2,
+      19.617500000000003,
+      43.40254413000571,
+      65.99321428571427,
+      49.91219050356435
+    ],
+    [
+      41999.0,
+      40824.25,
+      0.8660254037844387,
+      -0.4999999999999998,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -0.01,
+      76.22,
+      43.64,
+      88.2,
+      15.3575,
+      39.810327723831065,
+      65.4264880952381,
+      50.11867945295201
+    ],
+    [
+      44330.75,
+      44322.75,
+      0.7071067811865476,
+      -0.7071067811865475,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -0.01,
+      15.0,
+      4.06,
+      82.32,
+      12.181249999999999,
+      37.72994489590991,
+      64.90142857142857,
+      50.34023668085798
+    ],
+    [
+      45929.5,
+      46409.25,
+      0.49999999999999994,
+      -0.8660254037844387,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -1.39,
+      -0.03,
+      -0.01,
+      72.12,
+      11.498333333333333,
+      37.824917904647535,
+      64.40315476190476,
+      50.58050564264691
+    ],
+    [
+      46895.0,
+      48017.0,
+      0.258819045102521,
+      -0.9659258262890682,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -6.07,
+      -6.85,
+      -3.97,
+      72.52,
+      11.246666666666668,
+      37.92491743325768,
+      63.93773809523809,
+      50.86798964870899
+    ],
+    [
+      46627.5,
+      47832.5,
+      1.2246467991473532e-16,
+      -1.0,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -10.1,
+      -18.68,
+      -9.54,
+      66.03,
+      11.111249999999998,
+      37.99807550190402,
+      63.445952380952384,
+      51.18292579074414
+    ],
+    [
+      44151.25,
+      46318.5,
+      -0.2588190451025208,
+      -0.9659258262890683,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -15.5,
+      -40.09,
+      -15.32,
+      33.64,
+      11.243749999999999,
+      37.8950809946031,
+      62.960654761904756,
+      51.543526506424925
+    ],
+    [
+      42663.5,
+      45118.0,
+      -0.4999999999999997,
+      -0.8660254037844388,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -20.01,
+      -44.18,
+      -16.55,
+      17.72,
+      12.080416666666666,
+      36.92159583427899,
+      62.64130952380953,
+      51.89129942831283
+    ],
+    [
+      42161.75,
+      44599.0,
+      -0.7071067811865471,
+      -0.7071067811865479,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -19.83,
+      -27.64,
+      -10.15,
+      51.28,
+      13.095,
+      35.61999475136863,
+      62.41779761904761,
+      52.16609021360977
+    ],
+    [
+      42636.0,
+      44394.25,
+      -0.8660254037844384,
+      -0.5000000000000004,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -10.15,
+      -8.15,
+      -9.18,
+      69.86,
+      13.823750000000002,
+      34.9224461034504,
+      62.05214285714286,
+      52.45909922205258
+    ],
+    [
+      45058.25,
+      45280.25,
+      -0.9659258262890683,
+      -0.25881904510252063,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      -5.01,
+      -0.99,
+      -0.03,
+      82.39,
+      13.954583333333332,
+      34.842334442236066,
+      61.60648809523809,
+      52.709793907966706
+    ],
+    [
+      46900.75,
+      46338.0,
+      -1.0,
+      -1.8369701987210297e-16,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      1.0,
+      71.68,
+      50.2,
+      93.85,
+      14.0375,
+      34.807574044597494,
+      61.12202380952381,
+      52.89134710210155
+    ],
+    [
+      47148.5,
+      46045.0,
+      -0.9659258262890684,
+      0.2588190451025203,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      87.04,
+      91.52,
+      99.53,
+      109.93,
+      14.6775,
+      36.03315058810316,
+      61.0814880952381,
+      52.86871905634415
+    ],
+    [
+      46970.5,
+      45504.75,
+      -0.8660254037844386,
+      0.5000000000000001,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      110.0,
+      80.08,
+      118.57,
+      115.68,
+      15.4475,
+      37.895911360286064,
+      61.08190476190477,
+      52.869106618833804
+    ],
+    [
+      46288.25,
+      44506.75,
+      -0.7071067811865477,
+      0.7071067811865474,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      119.45,
+      68.91,
+      123.15,
+      109.83,
+      17.087916666666665,
+      41.4964005750978,
+      61.10434523809524,
+      52.89321433721077
+    ],
+    [
+      44144.5,
+      43032.0,
+      -0.5000000000000004,
+      0.8660254037844384,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      105.49,
+      64.14,
+      119.54,
+      111.4,
+      18.612083333333334,
+      44.074307312047495,
+      61.07851190476191,
+      52.87032884920159
+    ],
+    [
+      41295.75,
+      40558.5,
+      -0.25881904510252157,
+      0.9659258262890681,
+      -0.7818314824680299,
+      0.6234898018587334,
+      1.0,
+      99.7,
+      50.0,
+      100.5,
+      99.45,
+      20.09375,
+      46.21701924546145,
+      61.008869047619044,
+      52.81131942294603
+    ],
+    [
+      39008.5,
+      38733.75,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      92.48,
+      0.37,
+      110.45,
+      97.39,
+      21.86375,
+      48.18374782944842,
+      60.96738095238096,
+      52.78367013215905
+    ],
+    [
+      38072.5,
+      37599.75,
+      0.25881904510252074,
+      0.9659258262890683,
+      0.0,
+      1.0,
+      0.0,
+      92.75,
+      -0.02,
+      103.78,
+      90.1,
+      25.71291666666667,
+      50.045972298454465,
+      60.93976190476191,
+      52.765708765257415
+    ],
+    [
+      38021.5,
+      37266.0,
+      0.49999999999999994,
+      0.8660254037844387,
+      0.0,
+      1.0,
+      0.0,
+      85.65,
+      -0.34,
+      100.42,
+      88.7,
+      29.2825,
+      51.17329876529663,
+      60.91327380952381,
+      52.75209801426595
+    ],
+    [
+      38435.25,
+      37807.25,
+      0.7071067811865475,
+      0.7071067811865476,
+      0.0,
+      1.0,
+      0.0,
+      80.94,
+      -1.0,
+      100.28,
+      84.86,
+      32.66916666666667,
+      51.81320386666034,
+      60.86708333333333,
+      52.73101504550853
+    ],
+    [
+      39809.75,
+      39772.75,
+      0.8660254037844386,
+      0.5000000000000001,
+      0.0,
+      1.0,
+      0.0,
+      83.36,
+      -0.89,
+      100.9,
+      84.5,
+      36.18416666666667,
+      52.289082983696815,
+      60.858154761904764,
+      52.727055010760346
+    ],
+    [
+      44051.5,
+      43569.0,
+      0.9659258262890683,
+      0.25881904510252074,
+      0.0,
+      1.0,
+      0.0,
+      82.43,
+      -0.42,
+      105.4,
+      87.97,
+      39.655833333333334,
+      52.48616073634219,
+      60.84583333333334,
+      52.72173882007006
+    ],
+    [
+      51332.0,
+      50561.75,
+      1.0,
+      6.123233995736766e-17,
+      0.0,
+      1.0,
+      0.0,
+      83.48,
+      -0.05,
+      101.02,
+      129.0,
+      43.151666666666664,
+      52.49493446922384,
+      60.81910714285715,
+      52.70904297910358
+    ],
+    [
+      55732.25,
+      55288.5,
+      0.9659258262890683,
+      -0.25881904510252063,
+      0.0,
+      1.0,
+      0.0,
+      113.11,
+      -0.01,
+      102.23,
+      152.33,
+      47.86666666666667,
+      53.51787687238821,
+      60.72452380952382,
+      52.60010796429816
+    ],
+    [
+      58961.5,
+      58331.25,
+      0.8660254037844387,
+      -0.4999999999999998,
+      0.0,
+      1.0,
+      0.0,
+      153.69,
+      -0.01,
+      76.22,
+      129.6,
+      54.270833333333336,
+      56.6445187429795,
+      60.732619047619046,
+      52.61439332270579
+    ],
+    [
+      59541.25,
+      59627.75,
+      0.7071067811865476,
+      -0.7071067811865475,
+      0.0,
+      1.0,
+      0.0,
+      130.97,
+      -1.39,
+      15.0,
+      112.58,
+      59.72833333333333,
+      57.49077980267277,
+      60.740773809523816,
+      52.62523611959616
+    ],
+    [
+      59836.75,
+      60468.5,
+      0.49999999999999994,
+      -0.8660254037844387,
+      0.0,
+      1.0,
+      0.0,
+      98.93,
+      -6.07,
+      -0.03,
+      96.9,
+      63.90833333333333,
+      56.4921491018486,
+      60.65952380952382,
+      52.55521118334966
+    ],
+    [
+      59813.0,
+      61532.25,
+      0.258819045102521,
+      -0.9659258262890682,
+      0.0,
+      1.0,
+      0.0,
+      77.0,
+      -10.1,
+      -6.85,
+      89.74,
+      67.36958333333332,
+      54.528909562545586,
+      60.54107142857143,
+      52.49543287845876
+    ],
+    [
+      59394.0,
+      61662.75,
+      1.2246467991473532e-16,
+      -1.0,
+      0.0,
+      1.0,
+      0.0,
+      65.31,
+      -15.5,
+      -18.68,
+      84.38,
+      70.51166666666667,
+      51.98411401712539,
+      60.39565476190476,
+      52.44788012977976
+    ],
+    [
+      58334.75,
+      60862.0,
+      -0.2588190451025208,
+      -0.9659258262890683,
+      0.0,
+      1.0,
+      0.0,
+      23.07,
+      -20.01,
+      -40.09,
+      78.87,
+      72.11875,
+      49.75799095208247,
+      60.03071428571428,
+      52.49327661050704
+    ],
+    [
+      56402.5,
+      59738.5,
+      -0.4999999999999997,
+      -0.8660254037844388,
+      0.0,
+      1.0,
+      0.0,
+      17.55,
+      -19.83,
+      -44.18,
+      80.21,
+      73.68375,
+      47.262443386814745,
+      59.66571428571429,
+      52.57462181858358
+    ],
+    [
+      55735.75,
+      58969.25,
+      -0.7071067811865471,
+      -0.7071067811865479,
+      0.0,
+      1.0,
+      0.0,
+      42.88,
+      -10.15,
+      -27.64,
+      79.9,
+      76.29666666666667,
+      43.44720951330842,
+      59.443511904761905,
+      52.566158555836346
+    ],
+    [
+      55246.5,
+      57810.75,
+      -0.8660254037844384,
+      -0.5000000000000004,
+      0.0,
+      1.0,
+      0.0,
+      71.05,
+      -5.01,
+      -8.15,
+      84.05,
+      79.68,
+      39.39540637534819,
+      59.39083333333333,
+      52.54996753494958
+    ],
+    [
+      56238.75,
+      57699.5,
+      -0.9659258262890683,
+      -0.25881904510252063,
+      0.0,
+      1.0,
+      0.0,
+      88.0,
+      1.0,
+      -0.99,
+      100.7,
+      83.55541666666667,
+      35.03558985290733,
+      59.41434523809523,
+      52.56194889295022
+    ],
+    [
+      56788.75,
+      57304.25,
+      -1.0,
+      -1.8369701987210297e-16,
+      0.0,
+      1.0,
+      0.0,
+      99.47,
+      87.04,
+      71.68,
+      113.97,
+      87.65833333333335,
+      30.407516042659925,
+      59.407023809523814,
+      52.55624907504203
+    ],
+    [
+      56359.5,
+      56771.75,
+      -0.9659258262890684,
+      0.2588190451025203,
+      0.0,
+      1.0,
+      0.0,
+      116.82,
+      110.0,
+      91.52,
+      200.0,
+      88.89916666666666,
+      30.983347689662807,
+      59.423988095238094,
+      52.5744233841856
+    ],
+    [
+      54813.75,
+      54892.0,
+      -0.8660254037844386,
+      0.5000000000000001,
+      0.0,
+      1.0,
+      0.0,
+      190.31,
+      119.45,
+      80.08,
+      203.83,
+      92.24541666666669,
+      37.09531483123035,
+      59.36630952380952,
+      52.424377420963054
+    ],
+    [
+      52448.0,
+      52503.5,
+      -0.7071067811865477,
+      0.7071067811865474,
+      0.0,
+      1.0,
+      0.0,
+      231.06,
+      105.49,
+      68.91,
+      140.11,
+      96.89583333333333,
+      46.46635107133569,
+      59.52839285714286,
+      52.91351066763746
+    ],
+    [
+      48874.75,
+      48834.0,
+      -0.5000000000000004,
+      0.8660254037844384,
+      0.0,
+      1.0,
+      0.0,
+      143.82,
+      99.7,
+      64.14,
+      100.82,
+      98.49291666666666,
+      47.42344058807528,
+      59.550476190476196,
+      52.94810546965661
+    ],
+    [
+      45706.0,
+      45340.0,
+      -0.25881904510252157,
+      0.9659258262890681,
+      0.0,
+      1.0,
+      0.0,
+      110.86,
+      92.48,
+      50.0,
+      86.2,
+      98.95791666666666,
+      47.490457071530486,
+      59.61023809523809,
+      53.000604809027564
+    ],
+    [
+      43186.5,
+      43032.25,
+      0.0,
+      1.0,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      107.54,
+      92.75,
+      0.37,
+      93.6,
+      99.58541666666667,
+      47.50063587484966,
+      59.73726190476191,
+      53.090209204863086
+    ],
+    [
+      42023.25,
+      41384.0,
+      0.25881904510252074,
+      0.9659258262890683,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      98.41,
+      85.65,
+      -0.02,
+      89.55,
+      99.82125,
+      47.479269280535526,
+      59.76589285714286,
+      53.109873698099456
+    ],
+    [
+      41329.0,
+      40954.0,
+      0.49999999999999994,
+      0.8660254037844387,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      89.91,
+      80.94,
+      -0.34,
+      88.5,
+      99.99875000000002,
+      47.43192635241121,
+      59.768035714285716,
+      53.111089860578666
+    ],
+    [
+      41325.5,
+      41418.75,
+      0.7071067811865475,
+      0.7071067811865476,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      86.45,
+      83.36,
+      -1.0,
+      89.31,
+      100.22833333333334,
+      47.34892833521488,
+      59.75583333333334,
+      53.10468421456855
+    ],
+    [
+      42373.75,
+      42706.25,
+      0.8660254037844386,
+      0.5000000000000001,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      87.3,
+      82.43,
+      -0.89,
+      86.19,
+      100.3925,
+      47.29469942265012,
+      59.74386904761904,
+      53.09821192931676
+    ],
+    [
+      45241.25,
+      45551.25,
+      0.9659258262890683,
+      0.25881904510252074,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      89.1,
+      83.48,
+      -0.42,
+      89.97,
+      100.67041666666667,
+      47.204068126015244,
+      59.761190476190485,
+      53.10736456490262
+    ],
+    [
+      51487.75,
+      51600.75,
+      1.0,
+      6.123233995736766e-17,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      100.16,
+      113.11,
+      -0.05,
+      123.06,
+      101.36541666666666,
+      47.06254422982907,
+      59.821845238095236,
+      53.14787675120839
+    ],
+    [
+      56053.25,
+      56383.0,
+      0.9659258262890683,
+      -0.25881904510252063,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      125.76,
+      153.69,
+      -0.01,
+      133.23,
+      101.8925,
+      47.27017786319353,
+      59.83791666666667,
+      53.16751849183808
+    ],
+    [
+      59598.25,
+      59357.5,
+      0.8660254037844387,
+      -0.4999999999999998,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      137.99,
+      130.97,
+      -0.01,
+      122.97,
+      101.23833333333333,
+      46.62644404260882,
+      59.86625,
+      53.20811665028339
+    ],
+    [
+      60236.0,
+      60612.0,
+      0.7071067811865476,
+      -0.7071067811865475,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      116.01,
+      98.93,
+      -1.39,
+      103.09,
+      100.61500000000001,
+      46.310617901679336,
+      59.824821428571425,
+      53.16137803836621
+    ],
+    [
+      60136.75,
+      61511.0,
+      0.49999999999999994,
+      -0.8660254037844387,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      89.94,
+      77.0,
+      -6.07,
+      75.01,
+      100.24041666666666,
+      46.36116979797632,
+      59.74654761904762,
+      53.106946792210124
+    ],
+    [
+      59624.0,
+      62451.25,
+      0.258819045102521,
+      -0.9659258262890682,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      73.72,
+      65.31,
+      -10.1,
+      50.13,
+      100.10374999999999,
+      46.43742997537602,
+      59.738869047619055,
+      53.10481989723892
+    ],
+    [
+      58591.75,
+      62579.5,
+      1.2246467991473532e-16,
+      -1.0,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      29.13,
+      23.07,
+      -15.5,
+      37.69,
+      98.59625,
+      48.170949915498134,
+      59.61386904761904,
+      53.15226710230326
+    ],
+    [
+      57048.75,
+      61316.5,
+      -0.2588190451025208,
+      -0.9659258262890683,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      5.07,
+      17.55,
+      -20.01,
+      18.22,
+      97.84625000000001,
+      49.51924288356427,
+      59.41970238095238,
+      53.292231747053485
+    ],
+    [
+      55647.5,
+      59488.75,
+      -0.4999999999999997,
+      -0.8660254037844388,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      1.18,
+      42.88,
+      -19.83,
+      20.36,
+      97.16416666666667,
+      50.77027758671844,
+      59.3182738095238,
+      53.38724573512074
+    ],
+    [
+      55118.75,
+      58805.5,
+      -0.7071067811865471,
+      -0.7071067811865479,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      2.33,
+      71.05,
+      -10.15,
+      48.9,
+      95.47458333333333,
+      53.26860597413919,
+      59.21095238095237,
+      53.48406491923783
+    ],
+    [
+      55010.25,
+      57858.0,
+      -0.8660254037844384,
+      -0.5000000000000004,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      23.45,
+      88.0,
+      -5.01,
+      82.15,
+      93.49125000000002,
+      55.07311127334871,
+      59.059464285714284,
+      53.54944679272796
+    ],
+    [
+      55910.0,
+      58192.25,
+      -0.9659258262890683,
+      -0.25881904510252063,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      52.5,
+      99.47,
+      1.0,
+      104.5,
+      92.01208333333335,
+      55.700172818343354,
+      58.88297619047619,
+      53.521742401123554
+    ],
+    [
+      57018.0,
+      58018.0,
+      -1.0,
+      -1.8369701987210297e-16,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      88.71,
+      116.82,
+      87.04,
+      118.07,
+      91.56374999999998,
+      55.680834249479,
+      58.78898809523809,
+      53.45497844473334
+    ],
+    [
+      56797.75,
+      57289.0,
+      -0.9659258262890684,
+      0.2588190451025203,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      116.06,
+      190.31,
+      110.0,
+      158.81,
+      91.53208333333335,
+      55.66606022244585,
+      58.77702380952381,
+      53.441854054121734
+    ],
+    [
+      56387.5,
+      55316.75,
+      -0.8660254037844386,
+      0.5000000000000001,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      232.25,
+      231.06,
+      119.45,
+      154.71,
+      93.27958333333333,
+      59.432644044163744,
+      59.21416666666668,
+      54.553795791215514
+    ],
+    [
+      53869.5,
+      52890.75,
+      -0.7071067811865477,
+      0.7071067811865474,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      217.92,
+      143.82,
+      105.49,
+      120.89,
+      92.73208333333334,
+      58.1550017273352,
+      59.59041666666667,
+      55.427342669429095
+    ],
+    [
+      50295.0,
+      49536.5,
+      -0.5000000000000004,
+      0.8660254037844384,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      120.52,
+      110.86,
+      99.7,
+      103.82,
+      91.76125,
+      57.4553398821974,
+      59.58821428571429,
+      55.424899669544374
+    ],
+    [
+      46528.0,
+      45883.75,
+      -0.25881904510252157,
+      0.9659258262890681,
+      0.7818314824680298,
+      0.6234898018587336,
+      0.0,
+      105.21,
+      107.54,
+      92.48,
+      97.96,
+      91.52583333333332,
+      57.38521487484775,
+      59.5964880952381,
+      55.4316454521503
+    ],
+    [
+      44842.75,
+      43410.25,
+      0.0,
+      1.0,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      92.47,
+      98.41,
+      92.75,
+      87.36,
+      90.89791666666666,
+      57.284728064158784,
+      59.56380952380952,
+      55.410507842941726
+    ],
+    [
+      43470.0,
+      42235.5,
+      0.25881904510252074,
+      0.9659258262890683,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      90.47,
+      89.91,
+      85.65,
+      82.0,
+      90.56708333333334,
+      57.26238104050599,
+      59.582321428571426,
+      55.420368409985905
+    ],
+    [
+      42689.75,
+      41677.25,
+      0.49999999999999994,
+      0.8660254037844387,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      91.31,
+      86.45,
+      80.94,
+      65.93,
+      90.62541666666668,
+      57.26239565667108,
+      59.63773809523809,
+      55.447566834867935
+    ],
+    [
+      42908.0,
+      42125.5,
+      0.7071067811865475,
+      0.7071067811865476,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      87.48,
+      87.3,
+      83.36,
+      56.09,
+      90.66833333333334,
+      57.25951613842332,
+      59.76601190476191,
+      55.48712372766157
+    ],
+    [
+      43747.5,
+      43309.5,
+      0.8660254037844386,
+      0.5000000000000001,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      89.2,
+      89.1,
+      82.43,
+      60.42,
+      90.7475,
+      57.255969975423966,
+      59.96309523809524,
+      55.5327713243364
+    ],
+    [
+      46632.0,
+      46216.75,
+      0.9659258262890683,
+      0.25881904510252074,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      91.74,
+      100.16,
+      83.48,
+      59.95,
+      90.85750000000002,
+      57.2552031620795,
+      60.149523809523814,
+      55.58686008530475
+    ],
+    [
+      52635.75,
+      52080.75,
+      1.0,
+      6.123233995736766e-17,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      92.35,
+      125.76,
+      113.11,
+      81.3,
+      90.53208333333333,
+      57.2222175595118,
+      60.34238095238096,
+      55.64234148159753
+    ],
+    [
+      56759.25,
+      56422.5,
+      0.9659258262890683,
+      -0.25881904510252063,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      114.99,
+      137.99,
+      153.69,
+      85.92,
+      90.08333333333333,
+      56.97563962032801,
+      60.54291666666667,
+      55.77886739911853
+    ],
+    [
+      59314.5,
+      59395.25,
+      0.8660254037844387,
+      -0.4999999999999998,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      128.57,
+      116.01,
+      130.97,
+      87.38,
+      89.69083333333333,
+      56.66285424729185,
+      60.79678571428572,
+      55.99171037149311
+    ],
+    [
+      59767.25,
+      60999.0,
+      0.7071067811865476,
+      -0.7071067811865475,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      121.0,
+      89.94,
+      98.93,
+      53.16,
+      89.89874999999999,
+      56.772676397424235,
+      60.99690476190476,
+      56.14715449626018
+    ],
+    [
+      60511.0,
+      61984.25,
+      0.49999999999999994,
+      -0.8660254037844387,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      105.4,
+      73.72,
+      77.0,
+      0.16,
+      90.54291666666666,
+      56.860804218205914,
+      61.30785714285714,
+      56.248058789050326
+    ],
+    [
+      60728.75,
+      62615.25,
+      0.258819045102521,
+      -0.9659258262890682,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      87.56,
+      29.13,
+      65.31,
+      -4.95,
+      91.11958333333332,
+      56.75285110472474,
+      61.82809523809523,
+      56.08305503642368
+    ],
+    [
+      59725.75,
+      62386.75,
+      1.2246467991473532e-16,
+      -1.0,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      68.78,
+      5.07,
+      23.07,
+      -13.01,
+      92.77166666666666,
+      55.43159667685472,
+      62.26696428571429,
+      55.84534196218227
+    ],
+    [
+      58989.0,
+      61260.75,
+      -0.2588190451025208,
+      -0.9659258262890683,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      35.14,
+      1.18,
+      17.55,
+      -20.32,
+      94.02458333333333,
+      53.675099641812814,
+      62.55357142857143,
+      55.57961981935858
+    ],
+    [
+      57839.0,
+      59731.5,
+      -0.4999999999999997,
+      -0.8660254037844388,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      10.4,
+      2.33,
+      42.88,
+      -21.28,
+      94.40875,
+      53.01057632886059,
+      62.736428571428576,
+      55.35541505932537
+    ],
+    [
+      57854.0,
+      59159.75,
+      -0.7071067811865471,
+      -0.7071067811865479,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      8.17,
+      23.45,
+      71.05,
+      -16.05,
+      94.65208333333334,
+      52.581197001212075,
+      62.91172619047619,
+      55.13394915745781
+    ],
+    [
+      58127.0,
+      58154.25,
+      -0.8660254037844384,
+      -0.5000000000000004,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      54.84,
+      52.5,
+      88.0,
+      -12.64,
+      95.96,
+      51.10271081043036,
+      63.33369047619048,
+      54.79624358338661
+    ],
+    [
+      59221.75,
+      58216.0,
+      -0.9659258262890683,
+      -0.25881904510252063,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      78.56,
+      88.71,
+      99.47,
+      2.01,
+      97.04583333333333,
+      50.41130557435215,
+      63.87654761904762,
+      54.48997370816388
+    ],
+    [
+      59949.5,
+      58019.0,
+      -1.0,
+      -1.8369701987210297e-16,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      92.37,
+      116.06,
+      116.82,
+      67.26,
+      97.19833333333334,
+      50.39052401141994,
+      64.41440476190476,
+      54.32134727437787
+    ],
+    [
+      59843.25,
+      57240.5,
+      -0.9659258262890684,
+      0.2588190451025203,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      111.57,
+      232.25,
+      190.31,
+      101.89,
+      97.01125,
+      50.325745534343746,
+      64.67815476190476,
+      54.44268152859409
+    ],
+    [
+      59079.0,
+      55552.5,
+      -0.8660254037844386,
+      0.5000000000000001,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      201.91,
+      217.92,
+      231.06,
+      140.35,
+      95.74708333333332,
+      47.05571567918475,
+      65.2735119047619,
+      55.39067783108269
+    ],
+    [
+      57093.25,
+      52952.5,
+      -0.7071067811865477,
+      0.7071067811865474,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      204.03,
+      120.52,
+      143.82,
+      130.96,
+      95.16833333333334,
+      45.549045870475794,
+      65.65255952380951,
+      56.120592301187166
+    ],
+    [
+      53329.5,
+      49223.75,
+      -0.5000000000000004,
+      0.8660254037844384,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      124.84,
+      105.21,
+      110.86,
+      103.42,
+      95.34833333333334,
+      45.66198187120616,
+      65.61613095238096,
+      56.07991813363385
+    ],
+    [
+      49714.5,
+      46087.25,
+      -0.25881904510252157,
+      0.9659258262890681,
+      0.9749279121818236,
+      -0.22252093395631434,
+      0.0,
+      111.76,
+      92.47,
+      107.54,
+      85.65,
+      95.62125000000002,
+      45.74298913376636,
+      65.66577380952381,
+      56.1172620394023
+    ],
+    [
+      47126.75,
+      43117.0,
+      0.0,
+      1.0,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      99.7,
+      90.47,
+      98.41,
+      78.94,
+      95.9225,
+      45.74514089188003,
+      65.74940476190477,
+      56.15767738239357
+    ],
+    [
+      45566.5,
+      41641.75,
+      0.25881904510252074,
+      0.9659258262890683,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      93.53,
+      91.31,
+      89.91,
+      73.04,
+      96.05000000000001,
+      45.73354596013215,
+      65.83624999999999,
+      56.1894705511937
+    ],
+    [
+      44949.25,
+      40741.25,
+      0.49999999999999994,
+      0.8660254037844387,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      93.98,
+      87.48,
+      86.45,
+      80.46,
+      96.16125000000001,
+      45.72476089866073,
+      65.96089285714285,
+      56.22875747748315
+    ],
+    [
+      44198.0,
+      41328.25,
+      0.7071067811865475,
+      0.7071067811865476,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      89.81,
+      89.2,
+      87.3,
+      80.17,
+      96.25833333333334,
+      45.70799784137596,
+      66.01654761904763,
+      56.247818555046415
+    ],
+    [
+      44787.25,
+      42511.5,
+      0.8660254037844386,
+      0.5000000000000001,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      88.68,
+      91.74,
+      89.1,
+      70.23,
+      96.23666666666666,
+      45.71161223096585,
+      66.06720238095238,
+      56.26447040407582
+    ],
+    [
+      47580.25,
+      45514.0,
+      0.9659258262890683,
+      0.25881904510252074,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      89.37,
+      92.35,
+      100.16,
+      85.42,
+      96.13791666666667,
+      45.72430682472958,
+      66.18113095238095,
+      56.29232119622984
+    ],
+    [
+      53725.5,
+      51989.75,
+      1.0,
+      6.123233995736766e-17,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      101.23,
+      114.99,
+      125.76,
+      99.95,
+      96.50791666666667,
+      45.72825061345809,
+      66.2752380952381,
+      56.337873339328084
+    ],
+    [
+      58155.5,
+      56371.25,
+      0.9659258262890683,
+      -0.25881904510252063,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      125.46,
+      128.57,
+      137.99,
+      129.46,
+      96.94416666666666,
+      45.96158366711235,
+      66.42708333333333,
+      56.46341724206754
+    ],
+    [
+      61360.75,
+      59657.25,
+      0.8660254037844387,
+      -0.4999999999999998,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      134.47,
+      121.0,
+      116.01,
+      113.05,
+      97.19000000000001,
+      46.153472430488556,
+      66.45690476190477,
+      56.49822003398826
+    ],
+    [
+      62198.75,
+      60553.25,
+      0.7071067811865476,
+      -0.7071067811865475,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      126.24,
+      105.4,
+      89.94,
+      73.1,
+      97.40833333333335,
+      46.28321685362204,
+      66.53541666666666,
+      56.57247099143681
+    ],
+    [
+      62437.75,
+      60427.0,
+      0.49999999999999994,
+      -0.8660254037844387,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      108.71,
+      87.56,
+      73.72,
+      14.8,
+      97.54625,
+      46.3129882066683,
+      66.74738095238095,
+      56.66385180063265
+    ],
+    [
+      62559.75,
+      61100.25,
+      0.258819045102521,
+      -0.9659258262890682,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      92.19,
+      68.78,
+      29.13,
+      0.0,
+      97.73916666666668,
+      46.279212717058044,
+      67.20803571428571,
+      56.55347886352964
+    ],
+    [
+      62413.0,
+      61494.0,
+      1.2246467991473532e-16,
+      -1.0,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      84.4,
+      35.14,
+      5.07,
+      -0.38,
+      98.39,
+      45.9630008102041,
+      67.71041666666667,
+      56.32729791357496
+    ],
+    [
+      61320.0,
+      60901.75,
+      -0.2588190451025208,
+      -0.9659258262890683,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      65.78,
+      10.4,
+      1.18,
+      -2.56,
+      99.66666666666667,
+      44.533072094180625,
+      68.10422619047618,
+      56.079127004842846
+    ],
+    [
+      59629.5,
+      59638.5,
+      -0.4999999999999997,
+      -0.8660254037844388,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      45.25,
+      8.17,
+      2.33,
+      -1.51,
+      101.11874999999999,
+      41.99146106910253,
+      68.38880952380953,
+      55.83917850451801
+    ],
+    [
+      59472.75,
+      59209.5,
+      -0.7071067811865471,
+      -0.7071067811865479,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      51.32,
+      54.84,
+      23.45,
+      -4.35,
+      102.91666666666667,
+      38.62774950582313,
+      68.70327380952382,
+      55.591387859884996
+    ],
+    [
+      59424.5,
+      58142.75,
+      -0.8660254037844384,
+      -0.5000000000000004,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      79.45,
+      78.56,
+      52.5,
+      -0.09,
+      103.94208333333331,
+      37.60923383139597,
+      69.20208333333332,
+      55.3072047894474
+    ],
+    [
+      59394.0,
+      57763.75,
+      -0.9659258262890683,
+      -0.25881904510252063,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      90.15,
+      92.37,
+      88.71,
+      24.89,
+      104.425,
+      37.34261302890638,
+      69.73922619047619,
+      55.06789838310413
+    ],
+    [
+      59588.0,
+      57287.25,
+      -1.0,
+      -1.8369701987210297e-16,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      105.38,
+      111.57,
+      116.06,
+      89.46,
+      104.96708333333333,
+      37.25433368187212,
+      70.21833333333333,
+      55.0254873733869
+    ],
+    [
+      59282.25,
+      56374.5,
+      -0.9659258262890684,
+      0.2588190451025203,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      123.51,
+      201.91,
+      232.25,
+      112.74,
+      105.46458333333332,
+      37.4256740497786,
+      70.42101190476191,
+      55.159332103749335
+    ],
+    [
+      58359.25,
+      54885.25,
+      -0.8660254037844386,
+      0.5000000000000001,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      227.49,
+      204.03,
+      217.92,
+      111.5,
+      106.53041666666667,
+      40.527438207287275,
+      71.10404761904762,
+      56.383394710567565
+    ],
+    [
+      55528.5,
+      52432.75,
+      -0.7071067811865477,
+      0.7071067811865474,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      289.27,
+      124.84,
+      120.52,
+      109.99,
+      110.08208333333334,
+      51.65172971380626,
+      72.16220238095238,
+      58.76391433571053
+    ],
+    [
+      51305.5,
+      48624.5,
+      -0.5000000000000004,
+      0.8660254037844384,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      169.09,
+      111.76,
+      105.21,
+      95.48,
+      111.92583333333334,
+      52.974267495334246,
+      72.51398809523809,
+      59.16723831638589
+    ],
+    [
+      47937.5,
+      45265.5,
+      -0.25881904510252157,
+      0.9659258262890681,
+      0.43388373911755823,
+      -0.900968867902419,
+      0.0,
+      125.0,
+      99.7,
+      92.47,
+      79.22,
+      112.4775,
+      53.04136271530184,
+      72.68970238095238,
+      59.279578416823135
+    ],
+    [
+      45553.25,
+      43222.25,
+      0.0,
+      1.0,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      110.1,
+      93.53,
+      90.47,
+      51.9,
+      112.91083333333334,
+      52.9748763190161,
+      72.8735119047619,
+      59.34778422471401
+    ],
+    [
+      43997.5,
+      41776.0,
+      0.25881904510252074,
+      0.9659258262890683,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      109.88,
+      93.98,
+      91.31,
+      45.87,
+      113.59208333333333,
+      52.81970720654004,
+      73.21863095238096,
+      59.39365362502108
+    ],
+    [
+      43101.25,
+      40954.75,
+      0.49999999999999994,
+      0.8660254037844387,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      100.3,
+      89.81,
+      87.48,
+      38.51,
+      113.85541666666666,
+      52.733363416443524,
+      73.54261904761904,
+      59.39203133345424
+    ],
+    [
+      43279.75,
+      41386.5,
+      0.7071067811865475,
+      0.7071067811865476,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      93.53,
+      88.68,
+      89.2,
+      26.36,
+      114.01041666666667,
+      52.66503629207415,
+      73.87011904761906,
+      59.349377983696975
+    ],
+    [
+      43808.5,
+      42262.25,
+      0.8660254037844386,
+      0.5000000000000001,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      93.28,
+      89.37,
+      91.74,
+      26.48,
+      114.20208333333333,
+      52.57713902111342,
+      74.26845238095237,
+      59.25309072499855
+    ],
+    [
+      47056.0,
+      45093.5,
+      0.9659258262890683,
+      0.25881904510252074,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      97.62,
+      101.23,
+      92.35,
+      30.59,
+      114.54583333333333,
+      52.43450356867425,
+      74.69190476190477,
+      59.16365899816272
+    ],
+    [
+      53123.5,
+      51370.5,
+      1.0,
+      6.123233995736766e-17,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      107.37,
+      125.46,
+      114.99,
+      64.22,
+      114.80166666666668,
+      52.381661715322956,
+      75.14892857142857,
+      59.1174780282966
+    ],
+    [
+      57682.0,
+      56220.75,
+      0.9659258262890683,
+      -0.25881904510252063,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      136.83,
+      134.47,
+      128.57,
+      60.63,
+      115.27541666666667,
+      52.533445245715775,
+      75.58113095238096,
+      59.30223298020037
+    ],
+    [
+      61239.25,
+      59274.25,
+      0.8660254037844387,
+      -0.4999999999999998,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      151.06,
+      126.24,
+      121.0,
+      43.64,
+      115.96666666666665,
+      52.90482945545429,
+      76.11940476190476,
+      59.57548952161036
+    ],
+    [
+      62714.25,
+      60235.25,
+      0.7071067811865476,
+      -0.7071067811865475,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      133.55,
+      108.71,
+      105.4,
+      4.06,
+      116.27125000000001,
+      52.98752448024004,
+      76.65458333333333,
+      59.685711214483916
+    ],
+    [
+      63665.5,
+      61016.0,
+      0.49999999999999994,
+      -0.8660254037844387,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      113.7,
+      92.19,
+      87.56,
+      -0.01,
+      116.47916666666667,
+      52.96635091934033,
+      77.30720238095239,
+      59.48627299940822
+    ],
+    [
+      64092.0,
+      61412.25,
+      0.258819045102521,
+      -0.9659258262890682,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      98.24,
+      84.4,
+      68.78,
+      -3.97,
+      116.73125,
+      52.86001532452724,
+      77.8920238095238,
+      59.203887956562546
+    ],
+    [
+      62307.5,
+      60789.75,
+      1.2246467991473532e-16,
+      -1.0,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      89.95,
+      65.78,
+      35.14,
+      -9.54,
+      116.96249999999999,
+      52.72439013604568,
+      78.45107142857144,
+      58.86873942492762
+    ],
+    [
+      60299.25,
+      59447.0,
+      -0.2588190451025208,
+      -0.9659258262890683,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      86.13,
+      45.25,
+      10.4,
+      -15.32,
+      117.81041666666668,
+      52.02447162293421,
+      79.02053571428571,
+      58.47387015862888
+    ],
+    [
+      58425.25,
+      57837.0,
+      -0.4999999999999997,
+      -0.8660254037844388,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      80.2,
+      51.32,
+      8.17,
+      -16.55,
+      119.26666666666667,
+      50.367856957521155,
+      79.58910714285715,
+      58.01363960858938
+    ],
+    [
+      57379.25,
+      57039.0,
+      -0.7071067811865471,
+      -0.7071067811865479,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      79.08,
+      79.45,
+      54.84,
+      -10.15,
+      120.42333333333333,
+      49.040929194219416,
+      80.15833333333333,
+      57.53183725385905
+    ],
+    [
+      57045.25,
+      56011.25,
+      -0.8660254037844384,
+      -0.5000000000000004,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      81.98,
+      90.15,
+      78.56,
+      -9.18,
+      120.52875,
+      48.951662965273975,
+      80.70672619047619,
+      57.10336010014742
+    ],
+    [
+      57180.0,
+      55824.25,
+      -0.9659258262890683,
+      -0.25881904510252063,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      86.35,
+      105.38,
+      92.37,
+      -0.03,
+      120.37041666666666,
+      49.06021982609349,
+      81.27535714285715,
+      56.676963361843264
+    ],
+    [
+      56635.5,
+      55787.25,
+      -1.0,
+      -1.8369701987210297e-16,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      101.96,
+      123.51,
+      111.57,
+      50.2,
+      120.22791666666666,
+      49.110594976540796,
+      81.88244047619048,
+      56.346119860642254
+    ],
+    [
+      56016.0,
+      54727.75,
+      -0.9659258262890684,
+      0.2588190451025203,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      119.99,
+      227.49,
+      201.91,
+      99.53,
+      120.08125000000001,
+      49.105622923632176,
+      82.29785714285714,
+      56.36840163748865
+    ],
+    [
+      54733.75,
+      52853.25,
+      -0.8660254037844386,
+      0.5000000000000001,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      156.11,
+      289.27,
+      204.03,
+      118.57,
+      117.10708333333332,
+      44.23773025461714,
+      82.63464285714286,
+      56.640344467779386
+    ],
+    [
+      51816.75,
+      50290.25,
+      -0.7071067811865477,
+      0.7071067811865474,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      137.29,
+      169.09,
+      124.84,
+      123.15,
+      110.77458333333334,
+      25.380009932370516,
+      82.74607142857143,
+      56.729806716599946
+    ],
+    [
+      48328.0,
+      46898.5,
+      -0.5000000000000004,
+      0.8660254037844384,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      112.71,
+      125.0,
+      111.76,
+      119.54,
+      108.42541666666665,
+      22.151597052883417,
+      82.68392857142857,
+      56.69098729746617
+    ],
+    [
+      45067.75,
+      43652.75,
+      -0.25881904510252157,
+      0.9659258262890681,
+      -0.433883739117558,
+      -0.9009688679024191,
+      0.0,
+      96.83,
+      110.1,
+      99.7,
+      100.5,
+      107.25166666666667,
+      21.980838625203237,
+      82.54875,
+      56.629621025309675
+    ],
+    [
+      42494.0,
+      40826.5,
+      0.0,
+      1.0,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      95.36,
+      109.88,
+      93.53,
+      110.45,
+      106.63749999999999,
+      22.10337673397525,
+      82.51815476190477,
+      56.62125231695351
+    ],
+    [
+      40291.5,
+      39187.25,
+      0.25881904510252074,
+      0.9659258262890683,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      107.67,
+      100.3,
+      93.98,
+      103.78,
+      106.54541666666667,
+      22.093882485829905,
+      82.50160714285714,
+      56.61344601644428
+    ],
+    [
+      38773.25,
+      37937.75,
+      0.49999999999999994,
+      0.8660254037844387,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      105.44,
+      93.53,
+      89.81,
+      100.42,
+      106.75958333333334,
+      22.055589546738105,
+      82.5114880952381,
+      56.61732678062807
+    ],
+    [
+      38555.5,
+      37558.5,
+      0.7071067811865475,
+      0.7071067811865476,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      102.06,
+      93.28,
+      88.68,
+      100.28,
+      107.115,
+      21.90132038903519,
+      82.52125000000001,
+      56.62057432904081
+    ],
+    [
+      38527.5,
+      37631.25,
+      0.8660254037844386,
+      0.5000000000000001,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      99.04,
+      97.62,
+      89.37,
+      100.9,
+      107.355,
+      21.774312947792083,
+      82.51386904761905,
+      56.618326246692384
+    ],
+    [
+      39077.75,
+      38092.5,
+      0.9659258262890683,
+      0.25881904510252074,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      96.65,
+      107.37,
+      101.23,
+      105.4,
+      107.31458333333335,
+      21.794059617290422,
+      82.48857142857143,
+      56.6110109503562
+    ],
+    [
+      40506.0,
+      39343.75,
+      1.0,
+      6.123233995736766e-17,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      98.07,
+      136.83,
+      125.46,
+      101.02,
+      106.92708333333333,
+      21.87555643599993,
+      82.44494047619048,
+      56.59606973084444
+    ],
+    [
+      42484.25,
+      41867.0,
+      0.9659258262890683,
+      -0.25881904510252063,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      109.97,
+      151.06,
+      134.47,
+      102.23,
+      105.80791666666666,
+      20.94655040173546,
+      82.49821428571428,
+      56.61786722411781
+    ],
+    [
+      45774.5,
+      45383.5,
+      0.8660254037844387,
+      -0.4999999999999998,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      110.75,
+      133.55,
+      126.24,
+      76.22,
+      104.12833333333333,
+      18.65056536425524,
+      82.54892857142856,
+      56.63945908808991
+    ],
+    [
+      48694.25,
+      48216.5,
+      0.7071067811865476,
+      -0.7071067811865475,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      109.97,
+      113.7,
+      108.71,
+      15.0,
+      103.14583333333333,
+      17.62622278625529,
+      82.74982142857142,
+      56.67671796997685
+    ],
+    [
+      49980.25,
+      49723.0,
+      0.49999999999999994,
+      -0.8660254037844387,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      84.92,
+      98.24,
+      92.19,
+      -0.03,
+      101.94666666666666,
+      17.854489550306656,
+      83.1660119047619,
+      56.43242906757656
+    ],
+    [
+      50317.0,
+      50647.0,
+      0.258819045102521,
+      -0.9659258262890682,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      60.13,
+      89.95,
+      84.4,
+      -6.85,
+      100.35874999999999,
+      19.7884277365123,
+      83.52410714285715,
+      56.091185377405615
+    ],
+    [
+      48994.25,
+      50575.0,
+      1.2246467991473532e-16,
+      -1.0,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      18.34,
+      86.13,
+      65.78,
+      -18.68,
+      97.375,
+      25.885575973480325,
+      83.67404761904763,
+      55.88143090549633
+    ],
+    [
+      47382.25,
+      49027.25,
+      -0.2588190451025208,
+      -0.9659258262890683,
+      -0.9749279121818236,
+      -0.2225209339563146,
+      1.0,
+      0.47,
+      80.2,
+      45.25,
+      -40.09,
+      93.80583333333333,
+      32.550859324358626,
+      83.78803571428571,
+      55.690602258827745
+    ]
+  ]
+}

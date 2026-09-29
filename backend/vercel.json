@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "fluid": true,
+  "regions": ["fra1"],
+  "functions": {
+    "app.py": {
+      "maxDuration": 300,
+      "includeFiles": "assets/**"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/jobs/daily-forecast",
+      "schedule": "0 13 * * *"
+    }
+  ]
+}

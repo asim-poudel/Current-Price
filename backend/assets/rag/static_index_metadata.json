@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "source_fingerprint": "7413f9cc10871d665e160b78570be84153faf6290e29d1e2ba4843831381d9fd",
+  "embedding_model": "gemini-embedding-2",
+  "embedding_dimension": 768,
+  "chunk_count": 14,
+  "contains_dynamic_data": false
+}

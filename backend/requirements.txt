@@ -1,0 +1,6 @@
+fastapi==0.141.1
+google-genai==2.25.0
+numpy==2.4.6
+onnxruntime==1.30.0
+psycopg[binary]==3.3.6
+uvicorn==0.37.0

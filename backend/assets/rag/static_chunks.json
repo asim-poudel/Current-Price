@@ -1,0 +1,100 @@
+[
+  {
+    "chunk_id": "static_model_evaluation:document_purpose:1",
+    "source_id": "static_model_evaluation",
+    "title": "Document purpose",
+    "text": "Document purpose\n\nThis document contains static historical information about the forecasting\nmodels. It does not contain today's live forecast or yesterday's live\nevaluation.\n\nDynamic production data must be retrieved separately from the backend.",
+    "text_sha256": "cd5f8fb409c8d7eca3a014e023d9a7084b45390324cdc44b4f1982b88bb19fb6"
+  },
+  {
+    "chunk_id": "static_model_evaluation:production_configuration:1",
+    "source_id": "static_model_evaluation",
+    "title": "Production configuration",
+    "text": "Production configuration\n\n- Production model: CNN-LSTM\n- Model version: cnn_lstm_v1_frozen\n- Forecast origin: 12:00 UTC\n- Forecast horizon: 24 consecutive hours\n- Engineered input window: 168 hours\n- Minimum raw history required: 336 hours\n- Canonical storage timezone: UTC\n- Display timezone: Europe/Berlin\n- Automatic retraining: disabled\n- Target unit: EUR/MWh",
+    "text_sha256": "2f59a5065578d847243966d2bfdc881530d8e63f27471fe420eeeacaa42423d9"
+  },
+  {
+    "chunk_id": "static_model_evaluation:cnn_lstm_architecture:1",
+    "source_id": "static_model_evaluation",
+    "title": "CNN-LSTM architecture",
+    "text": "CNN-LSTM architecture\n\n- First Conv1D filters: 32\n- First Conv1D kernel: 3\n- Pool size: 2\n- Second Conv1D filters: 32\n- Second Conv1D kernel: 3\n- LSTM units: 64\n- LSTM dropout: 0.2\n- Dense units: 64\n- Dense dropout: 0.2\n- Forecast outputs: 24",
+    "text_sha256": "6cb156db2cce382423573d2d62f249484426b3ab3a45f8f2fa2363e904b08e3c"
+  },
+  {
+    "chunk_id": "static_model_evaluation:historical_evaluation_period:1",
+    "source_id": "static_model_evaluation",
+    "title": "Historical evaluation period",
+    "text": "Historical evaluation period\n\n- First forecast origin: 2024-05-15T05:00:00+00:00\n- Last forecast origin: 2024-08-31T19:00:00+00:00\n\nThese dates refer to historical offline evaluation and must not be interpreted\nas current production dates.",
+    "text_sha256": "7346a6d86bccd85a4a6206d10f8005c34ed074049b6995df37ae00ffb3f0623e"
+  },
+  {
+    "chunk_id": "static_model_evaluation:full_historical_test_metrics:1",
+    "source_id": "static_model_evaluation",
+    "title": "Full historical test metrics",
+    "text": "Full historical test metrics\n\n| model        |     N |     MAE |    RMSE |   sMAPE |   MAPE_guarded |   MAPE_excluded |\n|:-------------|------:|--------:|--------:|--------:|---------------:|----------------:|\n| CNN-LSTM     | 62568 | 21.3673 | 28.6713 | 46.9909 |        109.399 |            3336 |\n| LSTM         | 62568 | 22.4238 | 29.9138 | 46.8656 |        121.75  |            3336 |\n| Weekly naive | 62568 | 27.3307 | 37.1858 | 62.3417 |        114.633 |            3336 |\n| Daily naive  | 62568 | 27.3463 | 38.6098 | 60.7425 |        112.83  |            3336 |\n\nThese metrics use all available hourly forecast origins.",
+    "text_sha256": "1d608cdb14e6a4bfe99424296a51218503cf57a4d515437994039e596cc895b7"
+  },
+  {
+    "chunk_id": "static_model_evaluation:historical_12_00_utc_metrics:1",
+    "source_id": "static_model_evaluation",
+    "title": "Historical 12:00 UTC metrics",
+    "text": "Historical 12:00 UTC metrics\n\n|   forecast_origin_hour_utc |   forecast_count | model        |    N |     MAE |    RMSE |   sMAPE |   MAPE_guarded |   MAPE_excluded |\n|---------------------------:|-----------------:|:-------------|-----:|--------:|--------:|--------:|---------------:|----------------:|\n|                         12 |              109 | CNN-LSTM     | 2616 | 21.0239 | 27.7876 | 48.0606 |        99.1261 |             140 |\n|                         12 |              109 | LSTM         | 2616 | 22.2755 | 29.4323 | 48.0395 |       119.349  |             140 |\n|                         12 |              109 | Daily naive  | 2616 | 27.3373 | 38.577  | 60.8443 |       112.758  |             140 |\n|                         12 |              109 | Weekly naive | 2616 | 27.3965 | 37.2506 | 62.5679 |       115.5    |             140 |\n\nThese metrics only use forecasts issued at 12:00 UTC and therefore correspond\nmore closely to the planned deployment schedule.",
+    "text_sha256": "f7dea0e19efe771278b21337f07f908064867006098279abbcd819377baad142"
+  },
+  {
+    "chunk_id": "static_model_evaluation:historical_subset_evaluation:1",
+    "source_id": "static_model_evaluation",
+    "title": "Historical subset evaluation",
+    "text": "Historical subset evaluation\n\n| subset | model | N | MAE | RMSE | sMAPE | MAPE_guarded | MAPE_excluded | |:----------------------|:-------------|------:|--------:|--------:|---------:|---------------:|----------------:| | All | Daily naive | 62568 | 27.3463 | 38.6098 | 60.7425 | 112.83 | 3336 | | All | Weekly naive | 62568 | 27.3307 | 37.1858 | 62.3417 | 114.633 | 3336 | | All | LSTM | 62568 | 22.4238 | 29.9138 | 46.8656 | 121.75 | 3336 | | All | CNN-LSTM | 62568 | 21.3673 | 28.6713 | 46.9909 | 109.399 | 3336 | | Top 5% absolute price | Daily naive | 3144 | 51.6175 | 66.0997 | 37.8617 | 29.5411 | 0 | | Top 5% absolute price | Weekly naive | 3144 | 40.431 | 50.8534 | 26.072 | 22.5543 | 0 | | Top 5% absolute price | LSTM | 3144 | 42.5129 | 51.144 | 26.9565 | 22.9269 | 0 | | Top 5% absolute price | CNN-LSTM | 3144 | 48.1118 | 56.1645 | 31.3435 | 26.2273 | 0 | | Negative price | Daily naive | 5763 | 34.0829 | 46.2662 | 167.941 | 525.629 | 2040 | | Negative price | Weekly naive | 5763 | 38.1427 | 49.5285 | 170.131 | 621.011 | 2040 | | Negative price | LSTM | 5763 | 40.3715 | 46.5097 | 181.563 | 653.373 | 2040 | | Negative price | CNN-LSTM | 5763 | 37.0958 | 43.2248 | 185.711 | 597.729 | 2040 | | Weekday | Daily naive | 44484 | 26.3714 | 37.8976 | 52.3028 | 71.1728 | 1166 | | Weekday | Weekly naive | 44484 | 26.5593 | 36.1419 | 48.7772 | 80.0585 | 1166 | | Weekday | LSTM | 44484 | 21.147 | 28.9387 | 33.2852 | 85.3811 | 1166 | | Weekday | CNN-LSTM | 44484 | 20.047 | 27.7798 | 32.7623 | 79.9018 | 1166 | | Weekend | Daily naive | 18084 | 29.7442 | 40.3081 | 81.5031 | 226.219 | 2170 | | Weekend | Weekly naive |",
+    "text_sha256": "7f8ab4b424cd38e6431d0c3951ee50a12f232f8de68404fbfdee3687fa7c280e"
+  },
+  {
+    "chunk_id": "static_model_evaluation:historical_subset_evaluation:2",
+    "source_id": "static_model_evaluation",
+    "title": "Historical subset evaluation",
+    "text": "Historical subset evaluation\n\n18084 | 29.2283 | 39.6367 | 95.7084 | 208.745 | 2170 | | Weekend | LSTM | 18084 | 25.5646 | 32.1868 | 80.2716 | 220.748 | 2170 | | Weekend | CNN-LSTM | 18084 | 24.6149 | 30.7546 | 81.9912 | 189.692 | 2170 |",
+    "text_sha256": "434a992a657defc8052b37745ff9e4ae201eafded899e2267bc0743ebde040de"
+  },
+  {
+    "chunk_id": "static_model_evaluation:metric_definitions:1",
+    "source_id": "static_model_evaluation",
+    "title": "Metric definitions",
+    "text": "Metric definitions\n\nMAE is the mean absolute error in EUR/MWh.\n\nRMSE is the square root of mean squared error in EUR/MWh and gives additional\nweight to large forecast errors.\n\nsMAPE is the symmetric mean absolute percentage error.\n\nGuarded MAPE excludes observations where the absolute actual price is below\n1.0 EUR/MWh. The excluded observation count must always be\nreported with guarded MAPE.",
+    "text_sha256": "3393de4411cc861d0a359a1bcd51863dc8e5d52308f69b9c053cc473002b1732"
+  },
+  {
+    "chunk_id": "static_model_evaluation:model_selection_interpretation:1",
+    "source_id": "static_model_evaluation",
+    "title": "Model-selection interpretation",
+    "text": "Model-selection interpretation\n\nCNN-LSTM has lower overall historical MAE and RMSE than the basic LSTM, but it\ndoes not outperform the LSTM for every metric, forecast horizon or price\ncondition.\n\nIts selection should be described as primarily based on validation performance,\noverall MAE and overall RMSE.",
+    "text_sha256": "b00483f2dde3c0dab5abb2cd0bc1d1b10f430f162093e36f056ecc144824baff"
+  },
+  {
+    "chunk_id": "static_model_evaluation:input_rules:1",
+    "source_id": "static_model_evaluation",
+    "title": "Input rules",
+    "text": "Input rules\n\nThe production model requires exactly 168 complete engineered hourly rows.\n\nThe raw-data pipeline requires at least 336 continuous hours because the\nfeature calculations require a 168-hour warm-up period.\n\nThe model uses historical actual load and historical forecast-load values. It\ndoes not use future actual load.\n\nMissing input values must cause the production prediction to fail safely.\nThe backend must not refit scalers or silently invent missing model inputs.",
+    "text_sha256": "89780398b06dc06b77995a2128d3796f632608a1a91dcd2fd67c0c7c679d734e"
+  },
+  {
+    "chunk_id": "static_model_evaluation:methodological_limitations:1",
+    "source_id": "static_model_evaluation",
+    "title": "Methodological limitations",
+    "text": "Methodological limitations\n\nThe historical test period was inspected during model development and should\nbe described as a development evaluation rather than a fully untouched\npublication-grade holdout.\n\nForecast windows near chronological split boundaries contain overlapping\n24-hour target periods. Completely correcting the training boundary would\nrequire a future retraining experiment.\n\nHistorical performance does not guarantee current performance. Production\nperformance must be recalculated daily using the previous scheduled forecast\nand its corresponding 24 actual prices.",
+    "text_sha256": "c6a76245fb8b9d5e4fddd451ca19031f6a4c443875a43a23dcc9f7a3641f892c"
+  },
+  {
+    "chunk_id": "static_model_evaluation:static_and_dynamic_rag_separation:1",
+    "source_id": "static_model_evaluation",
+    "title": "Static and dynamic RAG separation",
+    "text": "Static and dynamic RAG separation\n\nStatic retrieval may use this document for:\n\n- architecture questions\n- feature questions\n- historical model performance\n- metric definitions\n- model limitations\n\nDynamic questions must use the backend for:\n\n- today's latest forecast\n- yesterday's forecast\n- yesterday's actual prices\n- yesterday's MAE\n- yesterday's RMSE\n- yesterday's sMAPE\n- yesterday's guarded MAPE\n- evaluation availability status\n\nDynamic values must never be inferred from the historical example payload.",
+    "text_sha256": "79445faefc40f965c9fbae8b9ac1cb0d0fbcbd9f5d07846e2f033855e0def02f"
+  },
+  {
+    "chunk_id": "cnn_lstm_config:model_contract:1",
+    "source_id": "cnn_lstm_config",
+    "title": "Frozen model contract",
+    "text": "Frozen CNN-LSTM configuration\n\nbatch_size: 64\ncanonical_timezone: UTC\ncontract_version: 1\nconv1_filters: 32\nconv1_kernel: 3\nconv2_filters: 32\nconv2_kernel: 3\ndense_dropout: 0.2\ndense_units: 64\ndisplay_timezone: Europe/Berlin\nengineered_input_hours: 168\nfeatures_cols: load_actual_mwh, load_forecast_mwh, hour_sin, hour_cos, dow_sin, dow_cos, weekend, price_lag_1, price_lag_24, price_lag_48, price_lag_168, price_roll_mean_24, price_roll_std_24, price_roll_mean_168, price_roll_std_168\nhorizon: 24\ninput_frequency: 1h\ninput_shape: 168, 15\nlearning_rate: 0.001\nlookback: 168\nloss: Huber\nlstm_dropout: 0.2\nlstm_units: 64\nmax_epochs: 125\nminimum_raw_history_hours: 336\nmissing_input_policy: reject_forecast\nmodel: CNN-LSTM\nmodel_format: keras\nmodel_version: cnn_lstm_v1_frozen\noffline_test_first_origin_utc: 2024-05-15 05:00:00+00:00\noffline_test_last_origin_utc: 2024-08-31 19:00:00+00:00\noptimizer: Adam\noutput_shape: 24\npadding: causal\npool_size: 2\nretraining_policy: frozen_no_daily_fit\nscheduled_forecast_hour_utc: 12\nseed: 56\ntarget_col: price_eur_mwh\ntraining_first_origin_utc: 2022-09-07 19:00:00+00:00\ntraining_last_origin_utc: 2024-01-27 13:00:00+00:00",
+    "text_sha256": "b154eaadda2214d76831fca468cf8fab76d4a8342046f5638b3c46db019764c3"
+  }
+]
