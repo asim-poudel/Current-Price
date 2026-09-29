@@ -4,9 +4,7 @@ Current Price forecasts Germany's next 24 day-ahead electricity prices. It combi
 
 ## Live deployment
 
-Website: `https://your-frontend-project.vercel.app`
-
-Replace the placeholder above with the public frontend URL after deployment.
+Website: [https://current-price-hhh.vercel.app](https://current-price-hhh.vercel.app)
 
 ## What the application shows
 
@@ -92,6 +90,7 @@ The repository separates deployable services from research and export artifacts:
 Install these tools before starting:
 
 - Python 3.12
+- uv 0.11 or later
 - Node.js 20.9 or later
 - Docker Desktop with the Docker engine running
 - PowerShell 7 or Windows PowerShell 5.1
@@ -146,10 +145,8 @@ The development database listens on port `5432` and stores its data in the `curr
 From the repository root:
 
 ```powershell
-py -3.12 -m venv backend\.venv
-backend\.venv\Scripts\python.exe -m pip install -r backend\requirements-dev.txt
 cd backend
-.\.venv\Scripts\python.exe -m dotenv -f .env.local run -- .\.venv\Scripts\python.exe migrate.py
+uv run --env-file .env.local --with-requirements requirements.txt --python 3.12 python migrate.py
 ```
 
 The migration is idempotent. It creates tables for observations, forecast runs, forecast points, evaluations, and Q&A rate limits. It does not insert historical fixtures into operational data.
@@ -159,7 +156,7 @@ The migration is idempotent. It creates tables for observations, forecast runs, 
 From `backend/`:
 
 ```powershell
-.\.venv\Scripts\python.exe -m uvicorn app:app --reload --host 127.0.0.1 --port 8000 --env-file .env.local
+uv run --env-file .env.local --with-requirements requirements.txt --python 3.12 uvicorn app:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Check the service at `http://127.0.0.1:8000/api/health`. The response should report `ok` for both the model and database.
@@ -196,7 +193,7 @@ Run unit, production-build, browser, and integration checks before deployment.
 Run backend tests from `backend/`:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest
+uv run --with-requirements requirements-dev.txt --python 3.12 python -m pytest
 ```
 
 Run frontend checks from `frontend/`:
