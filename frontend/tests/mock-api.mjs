@@ -47,6 +47,7 @@ createServer((request, response) => {
     return response.end(JSON.stringify({ schema_version: "1.0", error: { code: "service_unavailable", message: "The service is unavailable." } }));
   }
   if (mode === "incompatible" && request.url === "/api/health") return response.end(JSON.stringify({ status: "ok" }));
+  if (mode === "pending" && request.url === "/api/health") return response.end(JSON.stringify({ ...health, latest_job: { forecast_origin_utc: "2026-09-30T12:00:00Z", status: "pending" } }));
   if (mode === "degraded" && request.url === "/api/health") return response.end(JSON.stringify({ schema_version: "1.0", status: "degraded", model_version: "cnn_lstm_v1_frozen", checks: { model: "ok", database: "error" }, latest_job: null }));
   if (mode === "degraded") {
     response.writeHead(503);

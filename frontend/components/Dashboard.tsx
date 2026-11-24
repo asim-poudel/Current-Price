@@ -18,7 +18,7 @@ export function Dashboard({ health, forecast: forecastResult, evaluation: evalua
   const forecast = forecastResult.data;
   const evaluation = evaluationResult.data;
   const series = seriesResult.data;
-  const connection = connectionState(health, forecastResult.issue?.status);
+  const connection = connectionState(health, forecastResult.issue?.status, forecast?.forecast_origin_utc);
   const questionEnabled = health.data?.checks?.database === "ok";
   const hasMixedBerlinZones = new Set(forecast?.rows.map((row) => zoneLabel(row.german_timezone))).size > 1;
 
@@ -45,7 +45,7 @@ export function Dashboard({ health, forecast: forecastResult, evaluation: evalua
 
       <section className="dashboard-card forecast-chart-card" aria-labelledby="forecast-title">
         <div className="section-heading">
-          <div><p className="section-label">Next 24 delivery hours</p><h2 id="forecast-title">Day-ahead price path</h2></div>
+          <div><p className="section-label">{connection.label === "Data pending" ? "Last completed forecast" : "Next 24 delivery hours"}</p><h2 id="forecast-title">Day-ahead price path</h2></div>
           <p className="unit">EUR / MWh</p>
         </div>
         {forecast?.rows.length ? <ForecastChart rows={forecast.rows} /> : <Empty text={connection.emptyMessage} />}
@@ -111,7 +111,7 @@ function MobileForecast({ rows }: { rows: ForecastRow[] }) {
   );
 }
 
-function connectionState(health: DashboardData["health"], forecastStatus?: number) {
+function connectionState(health: DashboardData["health"], forecastStatus?: number, forecastOrigin?: string) {
   if (health.issue?.kind === "not_configured") return {
     label: "Not configured", tone: "error", emptyMessage: "Forecast data is unavailable until the backend API address is configured.",
     questionMessage: "Questions are unavailable until the backend API address is configured.",
@@ -141,6 +141,11 @@ function connectionState(health: DashboardData["health"], forecastStatus?: numbe
     label: "Ready", tone: "pending", emptyMessage: "The backend and database are connected. The first completed forecast is still pending.",
     questionMessage: undefined,
     notice: { title: "Awaiting first forecast", message: "The service is ready; forecast values will appear after the daily job completes." },
+  };
+  if (health.data.latest_job?.status === "pending" && forecastOrigin && health.data.latest_job.forecast_origin_utc !== forecastOrigin) return {
+    label: "Data pending", tone: "pending", emptyMessage: "The latest forecast is waiting for complete source data.",
+    questionMessage: undefined,
+    notice: { title: "Forecast update pending", message: `The latest scheduled run is waiting for complete source data. The forecast shown is from ${date(forecastOrigin)} UTC.` },
   };
   return { label: "Live", tone: "ok", emptyMessage: "No completed forecast is available yet.", questionMessage: undefined, notice: null };
 }

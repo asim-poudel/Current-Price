@@ -136,6 +136,15 @@ test("shows a boxed database degradation state", async ({ page, request }) => {
   await expect(page.locator(".service-notice")).toBeVisible();
 });
 
+test("labels an older forecast when the latest job is pending", async ({ page, request }) => {
+  await request.post("http://127.0.0.1:4010/__test/mode/pending");
+  await page.goto("/");
+  await expect(page.getByTestId("status-card")).toContainText("Data pending");
+  await expect(page.getByText("Forecast update pending", { exact: true })).toBeVisible();
+  await expect(page.getByText("Last completed forecast", { exact: true })).toBeVisible();
+  await expect(page.locator("tbody tr")).toHaveCount(24);
+});
+
 test("handles incompatible, unavailable, and empty backends", async ({ page, request }) => {
   await request.post("http://127.0.0.1:4010/__test/mode/incompatible");
   await page.goto("/");
